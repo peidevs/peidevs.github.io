@@ -3,7 +3,7 @@ disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = "10"
-theme = "Mainroad"
+theme = "mainroad"
 title = "PEI Developers"
 [[menu.main]]
 name = "About"
