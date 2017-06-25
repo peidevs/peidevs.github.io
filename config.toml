@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "http://peidevs.github.io/"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
