@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>April Meetup 2015</title>
+<meta name="description" content="Home of the PEI Developers Group.">
+<meta name="generator" content="Hugo 0.20.2" />
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="" title="PEI Developers" rel="home">
+						<h1 class="logo__title">PEI Developers</h1>
+						<h2 class="logo__tagline">est. 2012</h2>
+					</a>
+				</div>
+			</div>
+			<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item "><a class="menu__link" href="/about/">ABOUT</a></li>
+		<li class="menu__item "><a class="menu__link" href="/code/">CODE OF CONDUCT</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://www.meetup.com/pei-developers">MEETUP</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://www.twitter.com/peidevs">TWITTER</a></li>
+		<li class="menu__item "><a class="menu__link" href="https://www.github.com/peidevs">GITHUB</a></li>
+	</ul>
+</nav>
+		</header>
+		<div class="wrapper clearfix">
+
+<div class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">April Meetup 2015</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2015-04-15 00:00:00 &#43;0000 UTC">April 15, 2015</time>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<p>Our April meetup is behind us and the group continues to grow. April was the largest meetup to date as we had 33 people in attendance. Some of you may not have been aware but this was the 3rd anniversary of the PEIDevs group. The group was started by Dustin Sparks in April 2012. Through word of mouth and quality talent we are happy to see where the group can go in the future.</p>
+
+<p>For the April meetup we had two speakers. Derek Campbell (@<a href="https://twitter.com/derekscampbell1">derekscampbell1</a>) talking about Managed Development Environments and Ryan Palmer (@<a href="https://www.twitter.com/rypalmer">rypalmer</a>) talking about Travis CI.</p>
+
+<p><strong>Derek Campbell</strong></p>
+
+<p>Derek kicked off our evening trying to solve the age old problem “Well it worked on the developers machine”. He discussed how Code and Environmental Pollution can cause problems as code and systems work differently depending on the environment they are run in.<img src="/uploads/2017/04/24/derek__.jpg" alt="" /></p>
+
+<p>Derek explored 4 different products which can help solve these problems</p>
+
+<p><strong>Virtual Machines</strong> - Virtual machines allow you to setup many different environments for your work. This helps prevent multiple projects from stepping on each other as they can each be managed in their own VM. Storing them in their own VM makes for quick switching between tasks.</p>
+
+<p><strong>Vagrant</strong> - If you have many people working on a project at the same time ensuring they all setup their VM the same is a tough task. Vagrant makes managing Virtual Machines easier. Vagrant configuration files can be stored in source control rather than large base images.</p>
+
+<p><strong>Packer</strong> -  Packer solves the problem of building new base images. Packer is configuration based so new and entire environments can be created with configuration files. Packer uses JSON for its configuration files. So a lot of developers will already be familiar with the syntax.</p>
+
+<p><strong>Docker</strong> - Docker is harder to explain so we will let the company that builds the product define it: “The Docker Engine container comprises just the application and its dependencies. It runs as an isolated process in userspace on the host operating system, sharing the kernel with other containers. Thus, it enjoys the resource isolation and allocation benefits of VMs but is much more portable and efficient”.</p>
+
+<p><strong>Ryan Palmer</strong></p>
+
+<p>The second talk of the evening was on Continuous Integration. Ryan Palmer talked about his experiences using Travis CI.<img src="/uploads/2017/04/24/ryan_april.jpg" alt="" /></p>
+
+<p>Travis CI is a hosted solution that is free for open source projects to run their unit tests on. Ryan discussed how the environment is pluggable and anything else required can be scripted to make it work. There was support for most of the popular programming languages which gives it a wide range of support.</p>
+
+<p>Since the system is pluggable there was support for many popular configurations such as integration with Headless browser testing (i.e. Selenium), postegres or memcache.</p>
+
+<p>Ryan mentioned that one of his favorite features was the notification engine which allowed you to configure many different ways to get the outcome of the build. You can integrate with email and text message which most are used to. But Travis CI also has support for IRC or HipChat which allows the CI environment to communicate directly with your team without filling up your in box.</p>
+
+<p>In the demo, Ryan showed us how Travis could be setup to test against different versions of a language in order to test for past and future support. One of the examples he gave showed testing his application against 5 versions of Phython to ensure that whatever the user had on their system, the tests would pass. There was no need to setup different CI environments to do this. It could be done all within the same environment and controlled via a configuration file.</p>
+
+<p>Good talks from both of our speakers!!</p>
+
+<p><strong>Scooter</strong></p>
+
+<p>After the event we had a demo showing off PEIDevs first ever open source project, Scooter. Scooter is the brain child of Michael Easter and collaborated on by Evan Porter and Sean Whalley.</p>
+
+<p>Scooter is an open source project hosted on the <a href="https://github.com/peidevs">PEIDevs GitHub Repo</a> which is used to help perform the duties of picking our door prize winners. It was written in Dojo (Javascript framework) using the <a href="http://www.jetbrains.com/products">WebStorm IDE</a>. Feel free to perform fork and crate pul requests to help out.</p>
+
+<p>Scooter is inspired by the stage hand of the Muppets. Can you see the similarities?<img src="/uploads/2017/04/24/scooter.png" alt="" /></p>
+
+<p>A BIG THANK YOU to our sponsors who make these events happen.</p>
+
+<ul>
+<li>JetBrains</li>
+<li>BinaryStar</li>
+<li>ScreenScape</li>
+<li>Michael Easter</li>
+</ul>
+
+<p>We had a few prizes to give out at this event. And of course scooter was used to determine the winners. Congratulations to:</p>
+
+<p>**Callista Tan **who won a box set of Estimotes courtesy of <a href="http://estimote.com/">Estimote.com</a>, <strong>Ross Evans</strong> who won a Amazon.ca $50 Gift Card courtesy of <a href="http://www.century21.ca/kelly.lantz">Kelly Lantz</a>. <strong>Mark Wright</strong> won the big prize of the night. A JetBrains licence which he redeemed for a copy of IntelliJ IDEA. Thank you to JetBrains for providing the licence.</p>
+
+		</div>
+		
+
+	</article>
+	
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/our-mission/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Our Mission</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/post/guest-blogger/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Guest Blogger</p></a>
+	</div>
+</nav>
+
+	
+</div>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Important Links</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="http://ladieslearningcode.com/chapters/prince-edward-island/">Ladies Learning Code</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://peidevs.github.io/Event_Resources/">Scooter</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://peidevs.github.io/Scooter">People&#39;s Scooter</a></li>
+			<li class="widget__item"><a class="widget__link" href="http://www.flickr.com/photos/100794919@N05/">Flickr</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://docs.google.com/forms/d/1hNruzn7fb8Wu7BbuGVvgbeO0-HTNnDrcCJAQ24wZTBs/viewform">Request Slack Invite</a></li>
+			<li class="widget__item"><a class="widget__link" href="https://github.com/peidevs/Event_Resources/blob/master/MeetUps.csv">Event History</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/ckancon-2015/">CKANCon 2015</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/open-data-recap/">Open Data Recap</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/guest-blogger/">Guest Blogger</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/april-meetup-2015/">April Meetup 2015</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/our-mission/">Our Mission</a></li>
+		</ul>
+	</div>
+</div>
+
+	
+	
+</aside>
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2017 PEI Developers. Based on <a href="//wordpress.org/themes/mh-magazine-lite/" target="_blank" rel="nofollow noopener noreferrer">MH Magazine lite</a>.</p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+
+</body>
+</html>

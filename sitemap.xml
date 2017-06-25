@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/code/</loc>
+    <lastmod>2017-05-10T20:44:57-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2017-05-10T20:44:27-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ckancon-2015/</loc>
+    <lastmod>2015-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/open-data-recap/</loc>
+    <lastmod>2015-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/guest-blogger/</loc>
+    <lastmod>2015-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/april-meetup-2015/</loc>
+    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/our-mission/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/march-meetup-arduino/</loc>
+    <lastmod>2015-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pei-developers-winter-hackathon-2015/</loc>
+    <lastmod>2015-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ramping-up-some-faqs/</loc>
+    <lastmod>2015-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/what-exactly-is-a-hackathon-i-m-nervous/</loc>
+    <lastmod>2015-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/test/</loc>
+    <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/lobster-rescues-garbage-and-more-at-pei-hacks/</loc>
+    <lastmod>2013-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/thanks/</loc>
+    <lastmod>2013-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-05-10T20:44:57-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2015-07-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

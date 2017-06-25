@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PEI Developers</title>
+    <link>/</link>
+    <description>Recent content on PEI Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 May 2017 20:44:57 -0300</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>/code/</link>
+      <pubDate>Wed, 10 May 2017 20:44:57 -0300</pubDate>
+      
+      <guid>/code/</guid>
+      <description>As part of the 2017 review of the group. It was decided that we should draft a code of conduct so that members understand the direction and vision of the group.
+A few versions of this document are currently in draft form. Please check back in the future for an update.</description>
+    </item>
+    
+    <item>
+      <title>About PEI Developers</title>
+      <link>/about/</link>
+      <pubDate>Wed, 10 May 2017 20:44:27 -0300</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Who we are PEI Developers is simply an informal group of software developers, web designers, and other techies.
+We meet monthly, and organize hackathons on occasion. Some time back, our co-organizers drafted a mission statement. Here it is…
+At PEI Developers, we value:
+Inclusion. You are welcome here. We offer a friendly atmosphere regardless of gender, race, LGBT, and so on. We aren’t a youth centre, but we welcome talented young people who are engaged in software development.</description>
+    </item>
+    
+    <item>
+      <title>CKANCon 2015</title>
+      <link>/post/ckancon-2015/</link>
+      <pubDate>Sat, 18 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ckancon-2015/</guid>
+      <description>Michael Easter files this report from a trip to Ottawa:
+CKAN is a web-based, open-source data management system, maintained by the Open Knowledge Foundation. It powers many data catalogues around the world, including some heavy-hitters: Data.gov.uk , Data.gov in the United States, and the federal Open Data portal in Canada.
+It is primarily written in Python, using PostgresSQL to store meta-data about data sets, and Apache Solr as a search engine.</description>
+    </item>
+    
+    <item>
+      <title>Open Data Recap</title>
+      <link>/post/open-data-recap/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/open-data-recap/</guid>
+      <description>At long last, Michael Easter has written a recap of the conferences mentioned at the June Meet-Up. Check out A Week in Ottawa: Partying with the Data Nerds over on his blog.
+Michael will write a follow-up brief on CKAN Con (CKAN is an open-source, web-based data management system).</description>
+    </item>
+    
+    <item>
+      <title>Guest Blogger</title>
+      <link>/post/guest-blogger/</link>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/guest-blogger/</guid>
+      <description>Today we have a guest blogger with us. Evan Porter recently returned from Montreal where he attended PyCon 2015. Evan was kind enough to provide us with some notes from the event. We will now turn the mic over to Evan.
+The weekend of April 10th, 2015, I achieved a long-time goal and attended PyCon. This year, it was held in Montréal, so the bar was as low as it was going to be.</description>
+    </item>
+    
+    <item>
+      <title>April Meetup 2015</title>
+      <link>/post/april-meetup-2015/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/april-meetup-2015/</guid>
+      <description>Our April meetup is behind us and the group continues to grow. April was the largest meetup to date as we had 33 people in attendance. Some of you may not have been aware but this was the 3rd anniversary of the PEIDevs group. The group was started by Dustin Sparks in April 2012. Through word of mouth and quality talent we are happy to see where the group can go in the future.</description>
+    </item>
+    
+    <item>
+      <title>Our Mission</title>
+      <link>/post/our-mission/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/our-mission/</guid>
+      <description>PEI Developers is simply an informal group of software developers, web designers, and other techies. It’s a Nerd Club.
+We meet monthly, and organize hackathons on occasion. Some time back, our co-organizers drafted a mission statement. Here it is…
+At PEI Developers, we value:
+Inclusion. You are welcome here. We offer a friendly atmosphere regardless of gender, race, LGBT, and so on. We aren’t a youth centre, but we welcome talented young people who are engaged in software development.</description>
+    </item>
+    
+    <item>
+      <title>March Meetup - Arduino</title>
+      <link>/post/march-meetup-arduino/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/march-meetup-arduino/</guid>
+      <description>Our March meetup is behind us. We had Matt Duffy (@MEDexperience) gave us a talk on Arduino.
+We had a good turnout. The growth of the group continues as we have seen a 50% increase in attendance since the Hackathon. This is great to see and hope that through future events and word of mouth that the group continues to grow. There were many new faces; A big welcome to those attending for the first time.</description>
+    </item>
+    
+    <item>
+      <title>PEI Developers Winter Hackathon 2015</title>
+      <link>/post/pei-developers-winter-hackathon-2015/</link>
+      <pubDate>Thu, 12 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pei-developers-winter-hackathon-2015/</guid>
+      <description>On Jan 24 developers, designers, artists, and makers of all types came together at the PEI Developers Winter Hackathon!
+Early on Saturday, January 24th, 2015 the doors opened at the Atlantic Technology Centre in downtown Charlottetown, PEI. The forecast for the day called for a nasty winter storm but snow, Ice, nor slush could not keep the PEI Developers from creating a storm of their own.The group gathered and everyone was labeled.</description>
+    </item>
+    
+    <item>
+      <title>Ramping Up…. some FAQs</title>
+      <link>/post/ramping-up-some-faqs/</link>
+      <pubDate>Sun, 18 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ramping-up-some-faqs/</guid>
+      <description>Hello Hackers!
+Some notes before our event on Saturday, Jan 24.
+To re-iterate our goals, they are easy:
+ have fun (#1 with a bullet) meet nerds, network build something neat, which is demonstrable and placed on a public repo (e.g. GitHub)  Here are some answers to common questions
+How do I prepare ?
+ Think about some ideas you might like to work on (more below) Bring a laptop with your tools installed.</description>
+    </item>
+    
+    <item>
+      <title>What, exactly, is a hackathon? I’m nervous.</title>
+      <link>/post/what-exactly-is-a-hackathon-i-m-nervous/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/what-exactly-is-a-hackathon-i-m-nervous/</guid>
+      <description>If you’re nervous about coming out to our event, read on.
+We understand. Maybe you’ve never been to a hackathon. In fact, what is it, exactly?
+Our hackathon is a day-long hacking session, where peeps break-out into small, cross-functional teams to build something cool. Ideas include open data/civic hacking, games, or a hyper-local Island app — you name it. At the end of the day, teams present their work to the group.</description>
+    </item>
+    
+    <item>
+      <title>Winter Hackathon</title>
+      <link>/post/test/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>Hello Devs, Designers, and App Fans,
+PEI Developers, in partnership with generous sponsors, is happy to announce a hackathon on January 24!
+Here is your invite with all the details.
+This isn’t our first rodeo, so we know you may have questions. More to come, but for now, know that:
+ This is a one-day event with a focus on fun and being nerdy. You don’t have to be a coder to contribute!</description>
+    </item>
+    
+    <item>
+      <title>Lobster, Rescues, Garbage and more at PEI Hacks!</title>
+      <link>/post/lobster-rescues-garbage-and-more-at-pei-hacks/</link>
+      <pubDate>Fri, 30 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lobster-rescues-garbage-and-more-at-pei-hacks/</guid>
+      <description>The first PEI Hacks hackathon hosted by the PEI Developers is in the books. This was an amazing day where a group of over 30 software developers came together for 8 intense hours to create working applications at the Holman Centre in Summerside, PEI.
+Friday, August 23rd 20:00:00 - The Social
+The weekend started off with a social night pulled together by Ryan Palmer and his signature Big Yellow beer at the Queen Street Commons.</description>
+    </item>
+    
+    <item>
+      <title>Thanks!</title>
+      <link>/post/thanks/</link>
+      <pubDate>Sun, 25 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/thanks/</guid>
+      <description>PEI Hacks was a big success! Six teams demonstrated software after 8 hours of collaboration and coding. From all accounts, everyone had fun.
+Over the next few days, we’ll describe the efforts and the day, but for now we want to thank so many people / sponsors.
+You
+Thanks again to everyone who came out. We had about 30 participants, some of whom traveled from Halifax and Fredericton, and all of whom came inside to play on a gorgeous Saturday.</description>
+    </item>
+    
+  </channel>
+</rss>
