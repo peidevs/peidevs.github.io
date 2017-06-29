@@ -1,6 +1,6 @@
 +++
 categories = []
-date = "2017-05-10T20:44:57-03:00"
+date = "2017-06-29T20:44:00-03:00"
 description = "PEI Devs Code of Conduct"
 tags = []
 thumbnail = ""
