@@ -26,15 +26,19 @@ At PEI Developers, we value:
 
 ## History
 
-Founded in 2012 by Dustin Sparks. The group spent many of its first years huddled around the big table in the old Queen Street Commons. During the time the group had a small but very dedicated core group of members.
+Founded in 2012 by [Dustin Sparks](https://twitter.com/dustin_sparks). The group spent many of its first years huddled around the big table in the old Queen Street Commons. During that time, the group had a small but dedicated core group of members.
 
-After the closure of our original venue the group spent some time bouncing around various venues. We have held events at the Yacht Club, Murphy's Community Centre, Charlottetown Legion and Samuel's Coffee House to name a few. In 2016 the group found a new home at the Startup Zone.
+After the closure of our original venue, the group spent some time bouncing around various venues. We have held events at the [Charlottetown Yacht Club](http://www.cyc.pe.ca/), [Murphy's Community Centre](https://www.murphyscommunitycentre.com/), Charlottetown Legion, and [Samuel's Coffee House](https://samuelscoffeehouse.ca/), to name a few. In 2016 the group found a new home at the [Startup Zone](https://startupzone.ca/).
 
-The group has grown considerably over the years. In the beginning there were 6-10 members at every meetup and if 15 showed up we would try and squeeze in. Recent years have seen a substantial growth where some events have seen upwards of 50 people.
+The group has grown considerably over the years. In the beginning, there were 6-10 members at every meetup; if 15 showed up, we would try and squeeze in. Recent years have seen a substantial growth where some events have seen upwards of 50 people.
 
-Part of the growth is attributed to the various events held by the group through the years. This include Hackathons, participation in Global Day of Code Retreat as well as our summer social.
+Part of the growth is attributed to the various events held by the group through the years. This include [Hackathons](http://bit.ly/2sIZITO), participation in [Global Day of Code Retreat](http://bit.ly/2sIZITO) as well as our summer social.
 
-The growth of the group has been recognized in many different areas. There have been new groups popping up in PEI either directly from our group (Open Data Book Club) or our work has influenced their creation (UI/UX). This is an area that we are very proud of. To be part of and see the growth of the tech community here in PEI is important to us.
+The growth of the group has been recognized in many different areas. There have been new groups popping up in PEI either directly from our group (Open Data Book Club) or our work has influenced their creation (UI/UX). We're very proud! We aspire to contribute to the growth of the PEI tech community.
+
+## Sponsors
+
+Though [several sponsors](https://github.com/peidevs/Event_Resources/blob/master/MeetUps.csv) have contributed in some capacity over the years, our primary sponsor is [Binary Star](http://www.binarystar.biz/). Thanks!
 
 ## Elders
 The elders are those who are willing to help organize the events. Anyone is welcome to be an elder. All you have to do is ask.
@@ -82,12 +86,12 @@ The elders are those who are willing to help organize the events. Anyone is welc
 <img src="https://secure.meetupstatic.com/photos/member/8/2/8/5/member_263913413.jpeg" /> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Nolan Phillips</strong> - My name is Nolan and I like to pary
+<strong>Nolan Phillips</strong> - My name is Nolan and I like to party.
 </div>
 </article>
 
-#### Semi Retired Elders
-Our semi-retired elders you will see in events and still wear the elder hat. But not currently active in organizing. Our semi-retired elders are acting in an adviser role as needed.
+#### Elders on Sabbatical (semi-retired)
+Our semi-retired elders still participate and continue to wear the elder hat. But not currently active in organizing. Our semi-retired elders are acting in an adviser role as needed.
 
 <article class="loop__item post clearfix">
 <figure class="loop__thumbnail">
@@ -103,11 +107,11 @@ Our semi-retired elders you will see in events and still wear the elder hat. But
 <img src="https://secure.meetupstatic.com/photos/member/4/b/c/0/member_156379392.jpeg" /> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Michael Easter</strong> - An early co-organizer of the group, Michael has given several presentations, performed 'cat-herding' logistics, and sponsored the rare MeetUp. An advocate of Open Data, he founded and sponsors the PEI Open Data Book Club as a side-project within the PEI Devs umbrella. Michaael is stepping back in 2017 after carrying the elder torch for several years.
+<strong>Michael Easter</strong> - An early co-organizer of the group, Michael has given several presentations, performed 'cat-herding' logistics, and sponsored the rare MeetUp. An advocate of Open Data, he founded and sponsors the PEI Open Data Book Club as a side-project within the PEI Devs umbrella. Outside of tech hobbies, Michael enjoys running and dabbling with guitar & piano.
 </div>
 </article>
 
-#### Retired
+#### Elders Emeritus (retired)
 These folks put in a lot of effort to make the group what it is today. Because of other obligations in life they are no longer able to help in the role of cathearder anymore.
 
 <article class="loop__item post clearfix">
@@ -151,6 +155,6 @@ These folks put in a lot of effort to make the group what it is today. Because o
 <img src="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif" /> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Steven Baker</strong> - He lived in Summerside for 2-3 years and was a co-organizer for some meetups and esp. the August 2013 hackathon. He was also a sponsor on occasion. Steven now lives in Sweden
+<strong>Steven Baker</strong> - He lived in Summerside for 2-3 years and was a co-organizer for some meetups and esp. the August 2013 hackathon. He was also a sponsor on occasion. Steven now lives in Sweden.
 </div>
 </article>
