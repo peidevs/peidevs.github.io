@@ -17,7 +17,8 @@ All attendees, speakers, sponsors and volunteers at our meetup and in our Slack 
 
 Contact a member of the Elders, or the cat-herder/organizer of the event.
 
-[Current Elders](/about/)
+* [Current Elders](/about/)
+* In Slack, Elders can be identified by the Motar Board Hat icons
 
 ## Purpose
 
