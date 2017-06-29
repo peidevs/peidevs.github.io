@@ -8,8 +8,6 @@ title = "About PEI Developers"
 type = "page"
 
 +++
-
-
 ## Who we are
 
 PEI Developers is simply an informal group of software developers, web designers, and other techies.
@@ -68,10 +66,10 @@ The elders are those who are willing to help organize the events. Anyone is welc
 
 <article class="loop__item post clearfix">
 <figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif"> 
+<br />
 </figure>
 <div class="loop__content clearfix">
-<strong>Michael Berger</strong> - &lt;silence&gt;
+<strong>Michael Berger</strong> - Michael is a full stack developer that hates talking about himself. As the picture suggests, he likes a wide range of activities, most unrelated to software development. Michael has been a long time lurker, short time elder.
 </div>
 </article>
 
@@ -133,7 +131,7 @@ These folks put in a lot of effort to make the group what it is today. Because o
 <img src="https://secure.meetupstatic.com/photos/member/b/a/7/e/member_163727742.jpeg"> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Derek Campbell</strong> - One of the original members of the group. Derek was an active elder in 2013-2015 where he helped bring the spread the group through Summerside and beyond. 
+<strong>Derek Campbell</strong> - One of the original members of the group. Derek was an active elder in 2013-2015 where he helped spread the group accross the island, bring the group through Summerside and beyond. 
 </div>
 </article>
 
