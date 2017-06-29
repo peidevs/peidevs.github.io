@@ -60,7 +60,7 @@ The elders are those who are willing to help organize the events. Anyone is welc
 <img src="https://secure.meetupstatic.com/photos/member/2/5/8/2/member_162429602.jpeg"> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Matt Duffy</strong> - Bio Pending
+<strong>Matt Duffy</strong> - An avid sports fan, Matt spends most of his free time running in marathons and on his block's cricket team. You will find Matt in his down time using the PEI Devs slack channel as his personal Rubber Duck.
 </div>
 </article>
 
