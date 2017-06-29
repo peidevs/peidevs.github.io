@@ -6,10 +6,22 @@
     <description>Recent content in Posts on PEI Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2017 18:56:00 -0300</lastBuildDate>
     
 	<atom:link href="http://peidevs.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017 Q1 Elder Meeting Notes</title>
+      <link>http://peidevs.github.io/post/2017-q1-elder-meeting-notes/</link>
+      <pubDate>Fri, 21 Apr 2017 18:56:00 -0300</pubDate>
+      
+      <guid>http://peidevs.github.io/post/2017-q1-elder-meeting-notes/</guid>
+      <description>Hey Folks,
+The elder group met earlier this week and I wanted to share some of the high level details with you all.
+2017 Growth Potential
+Like last quarter, our goal is to make sure that we try and do one &amp;ldquo;Beginner&amp;rdquo; talk and one &amp;ldquo;Advanced&amp;rdquo; talk each month. This was proposed to ensure that the group (and topics) remain approachable for newcomers of all levels of technical experience. A &amp;ldquo;Beginner&amp;rdquo; talk is one that is not building on a previous discussion or topic.</description>
+    </item>
     
     <item>
       <title>CKANCon 2015</title>
