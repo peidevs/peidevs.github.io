@@ -66,7 +66,7 @@ The elders are those who are willing to help organize the events. Anyone is welc
 
 <article class="loop__item post clearfix">
 <figure class="loop__thumbnail">
-<img src="/static/uploads/2017/06/29/meatbanff.jpg">
+<img src="/uploads/2017/06/29/meatbanff.jpg">
 </figure>
 <div class="loop__content clearfix">
 <strong>Michael Berger</strong> - Michael is a full stack developer that hates talking about himself. As the picture suggests, he likes a wide range of activities, most unrelated to software development. Michael has been a long time lurker, short time elder.
