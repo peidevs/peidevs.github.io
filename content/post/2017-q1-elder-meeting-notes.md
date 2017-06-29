@@ -33,3 +33,7 @@ We are aware that the attendance of Global Day of Code Retreat and the Hackathon
 ### Emoji Hats
 
 You may have noticed that a few of us are now wearing hats in slack. This is help you identify who an elder is in case you have any questions or concerns. Feel free to reach out to any of us if you have anything to bring up. This could be a complaint, concern, topic for a meetup, need a friend invited to slack, or anything else.
+
+Thanks,
+
+Sean Whalley
