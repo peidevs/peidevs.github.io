@@ -13,7 +13,7 @@ Hey Folks,
 
 The elder group met earlier this week and I wanted to share some of the high level details with you all.
 
-<span style="color: rgb(40, 40, 40); font-size: 1.5em; word-spacing: 0.5px;">2017 Growth Potential</span>
+### 2017 Growth Potential
 
 Like last quarter, our goal is to make sure that we try and do one "Beginner" talk and one "Advanced" talk each month. This was proposed to ensure that the group (and topics) remain approachable for newcomers of all levels of technical experience. A "Beginner" talk is one that is not building on a previous discussion or topic. an "advanced" talk will be one that builds on a previous talk.
 
