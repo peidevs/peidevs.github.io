@@ -2,7 +2,6 @@
 categories = []
 date = "2017-04-21T18:56:00-03:00"
 description = "2017 Elder Quarterly Meeting "
-draft = true
 tags = []
 thumbnail = ""
 title = "2017 Q1 Elder Meeting Notes"
