@@ -8,6 +8,8 @@ title = "About PEI Developers"
 type = "page"
 
 +++
+
+
 ## Who we are
 
 PEI Developers is simply an informal group of software developers, web designers, and other techies.
@@ -100,7 +102,7 @@ Our semi-retired elders still participate and continue to wear the elder hat. Bu
 <img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Sean Whalley</strong> - Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an advisor to the other elders. With 2 small kids and 4 years of elderhood under his belt, it was time to step back refocus on family and career.
+<strong>Sean Whalley</strong> - Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career.
 </div>
 </article>
 
@@ -140,7 +142,7 @@ These folks put in a lot of effort to make the group what it is today. Because o
 <img src="https://secure.meetupstatic.com/photos/member/a/b/1/a/member_89983802.jpeg"> 
 </figure>
 <div class="loop__content clearfix">
-<strong>Bob Shand</strong> - Another original member of the group. Bob was an early speaker at many events and helped run many of our most successful events. Much of the growth of the group can be attributed to Bob's work wtih Hackathons. Bob left the elder group after an employment change. You will now find Bob hosting Security B-Side conferences.
+<strong>Bob Shand</strong> - Another original member of the group. Bob was an early speaker at many events and helped run many of our most successful events. Much of the growth of the group can be attributed to Bob's work with Hackathons. Bob left the elder group after an employment change. You will now find Bob hosting Security B-Side conferences.
 </div>
 </article>
 
