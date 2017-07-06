@@ -7,8 +7,6 @@ thumbnail = ""
 title = "2017 Q1 Elder Meeting Notes"
 
 +++
-
-
 Hey Folks,
 
 The elder group met earlier this week and I wanted to share some of the high level details with you all.
