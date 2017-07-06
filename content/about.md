@@ -69,7 +69,7 @@ desc="Michael is a full stack developer that hates talking about himself. As the
 {{% elder
 name="Michael Gauthier"
 img="https://secure.meetupstatic.com/photos/member/1/0/9/9/member_246964249.jpeg"
-desc="Mike has been a professional developer st silverorange since 2002 and hasn't gotten tired of it yet. Anything web or mobile is sure to interest Mike. He began assisting the group in 2016. ⚔"
+desc="Mike has been a professional developer at silverorange since 2002 and hasn't gotten tired of it yet. Anything web or mobile is sure to interest Mike. He began assisting the group in 2016. ⚔"
 %}}
 
 {{% elder
@@ -83,7 +83,7 @@ desc="My name is Nolan and I like to pary."
 Our semi-retired elders still participate and continue to wear the elder hat. But not currently active in organizing. Our semi-retired elders are acting in an adviser role as needed.
 
 {{% elder
-name="Sean Whally"
+name="Sean Whalley"
 img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
 desc="Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career."
 %}}
@@ -107,7 +107,7 @@ desc="Founder of the PEI Developers group. Dustin carried the group for the firs
 {{% elder
 name="Derek Campbell"
 img="https://secure.meetupstatic.com/photos/member/b/a/7/e/member_163727742.jpeg"
-desc="One of the original members of the group. Derek was an active elder in 2013-2015 where he helped spread the group accross the island, bring the group through Summerside and beyond. "
+desc="One of the original members of the group. Derek was an active elder in 2013-2015 where he helped spread the group across the island, bring the group through Summerside and beyond. "
 %}}
 
 {{% elder
