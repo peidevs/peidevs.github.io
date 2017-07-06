@@ -1,100 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://peidevs.github.io/code/</loc>
+    <loc>//peidevs.github.io/code/</loc>
     <lastmod>2017-06-29T20:44:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/about/</loc>
+    <loc>//peidevs.github.io/about/</loc>
     <lastmod>2017-05-10T20:44:27-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/2017-q1-elder-meeting-notes/</loc>
+    <loc>//peidevs.github.io/post/2017-q1-elder-meeting-notes/</loc>
     <lastmod>2017-04-21T18:56:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/ckancon-2015/</loc>
+    <loc>//peidevs.github.io/post/ckancon-2015/</loc>
     <lastmod>2015-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/open-data-recap/</loc>
+    <loc>//peidevs.github.io/post/open-data-recap/</loc>
     <lastmod>2015-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/guest-blogger/</loc>
+    <loc>//peidevs.github.io/post/guest-blogger/</loc>
     <lastmod>2015-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/april-meetup-2015/</loc>
+    <loc>//peidevs.github.io/post/april-meetup-2015/</loc>
     <lastmod>2015-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/our-mission/</loc>
+    <loc>//peidevs.github.io/post/our-mission/</loc>
     <lastmod>2015-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/march-meetup-arduino/</loc>
+    <loc>//peidevs.github.io/post/march-meetup-arduino/</loc>
     <lastmod>2015-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/pei-developers-winter-hackathon-2015/</loc>
+    <loc>//peidevs.github.io/post/pei-developers-winter-hackathon-2015/</loc>
     <lastmod>2015-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/ramping-up-some-faqs/</loc>
+    <loc>//peidevs.github.io/post/ramping-up-some-faqs/</loc>
     <lastmod>2015-01-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/what-exactly-is-a-hackathon-i-m-nervous/</loc>
+    <loc>//peidevs.github.io/post/what-exactly-is-a-hackathon-i-m-nervous/</loc>
     <lastmod>2015-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/test/</loc>
+    <loc>//peidevs.github.io/post/test/</loc>
     <lastmod>2015-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/lobster-rescues-garbage-and-more-at-pei-hacks/</loc>
+    <loc>//peidevs.github.io/post/lobster-rescues-garbage-and-more-at-pei-hacks/</loc>
     <lastmod>2013-08-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/thanks/</loc>
+    <loc>//peidevs.github.io/post/thanks/</loc>
     <lastmod>2013-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/categories/</loc>
+    <loc>//peidevs.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/</loc>
+    <loc>//peidevs.github.io/</loc>
     <lastmod>2017-06-29T20:44:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/post/</loc>
+    <loc>//peidevs.github.io/post/</loc>
     <lastmod>2017-04-21T18:56:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://peidevs.github.io/tags/</loc>
+    <loc>//peidevs.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
