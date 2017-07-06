@@ -85,7 +85,7 @@ Our semi-retired elders still participate and continue to wear the elder hat. Bu
 {{% elder
 name="Sean Whalley"
 img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
-desc="Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career."
+desc="Sean joined the group during the 2nd meetup. He has helped organize many events over the years. Sean is stepped back from an elder role in early 2017 while continuing to be an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career."
 %}}
 
 {{% elder
