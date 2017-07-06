@@ -6,7 +6,6 @@ tags = []
 thumbnail = ""
 title = "About PEI Developers"
 type = "page"
-
 +++
 ## Who we are
 
@@ -46,118 +45,82 @@ The elders are those who are willing to help organize the events. Anyone is welc
 
 ### Current Elders
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/d/8/6/0/member_163435392.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Evan Porter</strong> - Evan Porter has been working in the IT field for over a decade. He has extensive experience using Java and JavaScript professionally and likes Python and Clojure for fun. Attending PEI Devs since December 2012, he became an Elder in March 2016. Evan feels old and hates writing in third person. Only Bob Dole should refer to himself in the third person.
-</div>
-</article>
+{{% elder 
+    name="Evan Porter" 
+    img="https://secure.meetupstatic.com/photos/member/d/8/6/0/member_163435392.jpeg" 
+    desc="Evan Porter has been working in the IT field for over a decade. He has extensive experience using Java and JavaScript professionally and likes Python and Clojure for fun. Attending PEI Devs since December 2012, he became an Elder in March 2016. Evan feels old and hates writing in third person. Only Bob Dole should refer to himself in the third person."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/2/5/8/2/member_162429602.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Matt Duffy</strong> - An avid sports fan, Matt spends most of his free time running in marathons and playing on his block's cricket team. You will find Matt in his down time using the PEI Devs slack channel as his personal Rubber Duck.
-</div>
-</article>
+{{% elder 
+    name="Matt Duffy" 
+    img="https://secure.meetupstatic.com/photos/member/2/5/8/2/member_162429602.jpeg" 
+    desc="An avid sports fan, Matt spends most of his free time running in marathons and playing on his block's cricket team. You will find Matt in his down time using the PEI Devs slack channel as his personal Rubber Duck."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="/uploads/2017/06/29/meatbanff.jpg">
-</figure>
-<div class="loop__content clearfix">
-<strong>Michael Berger</strong> - Michael is a full stack developer that hates talking about himself. As the picture suggests, he likes a wide range of activities, most unrelated to software development. Michael has been a long time lurker, short time elder.
-</div>
-</article>
+{{% elder 
+    name="Michael Berger" 
+    img="/uploads/2017/06/29/meatbanff.jpg" 
+    desc="Michael is a full stack developer that hates talking about himself. As the picture suggests, he likes a wide range of activities, most unrelated to software development. Michael has been a long time lurker, short time elder."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/1/0/9/9/member_246964249.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Michael Gauthier</strong> - Mike has been a professional developer st silverorange since 2002 and hasn't gotten tired of it yet. Anything web or mobile is sure to interest Mike. He began assisting the group in 2016. ⚔
-</div>
-</article>
+{{% elder 
+    name="Michael Gauthier" 
+    img="https://secure.meetupstatic.com/photos/member/1/0/9/9/member_246964249.jpeg" 
+    desc="Mike has been a professional developer st silverorange since 2002 and hasn't gotten tired of it yet. Anything web or mobile is sure to interest Mike. He began assisting the group in 2016. ⚔"
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/8/2/8/5/member_263913413.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Nolan Phillips</strong> - My name is Nolan and I like to pary.
-</div>
-</article>
+{{% elder 
+    name="Nolan Phillips" 
+    img="https://secure.meetupstatic.com/photos/member/8/2/8/5/member_263913413.jpeg" 
+    desc="My name is Nolan and I like to pary."
+%}}
 
 ### Elders on Sabbatical (semi-retired)
 
 Our semi-retired elders still participate and continue to wear the elder hat. But not currently active in organizing. Our semi-retired elders are acting in an adviser role as needed.
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Sean Whalley</strong> - Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career.
-</div>
-</article>
+{{% elder 
+    name="Sean Whally" 
+    img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg" 
+    desc="Hasn't really done much. He has been to events and help organize things. But he is writing this for himself and has trouble with self reflection. Sean is stepping back in 2017 and focusing on being an adviser to the other elders. With 2 small kids and 4 years of elder-hood under his belt, it was time to step back refocus on family and career."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/4/b/c/0/member_156379392.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Michael Easter</strong> - An early co-organizer of the group, Michael has given several presentations, performed 'cat-herding' logistics, and sponsored the rare MeetUp. An advocate of Open Data, he founded and sponsors the PEI Open Data Book Club as a side-project within the PEI Devs umbrella. Outside of tech hobbies, Michael enjoys running and dabbling with guitar &amp; piano.
-</div>
-</article>
+{{% elder 
+    name="Michael Easter" 
+    img="https://secure.meetupstatic.com/photos/member/4/b/c/0/member_156379392.jpeg" 
+    desc="An early co-organizer of the group, Michael has given several presentations, performed 'cat-herding' logistics, and sponsored the rare MeetUp. An advocate of Open Data, he founded and sponsors the PEI Open Data Book Club as a side-project within the PEI Devs umbrella. Outside of tech hobbies, Michael enjoys running and dabbling with guitar &amp; piano."
+%}}
 
 ### Elders Emeritus (retired)
 
 These folks put in a lot of effort to make the group what it is today. Because of other obligations in life they are no longer able to help in the role of cathearder anymore.
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/4/0/e/4/member_46456612.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Dustin Sparks</strong> - Founder of the PEI Developers group. Dustin carried the group for the first year and helped mold it into what it is today. Dustin stepped back from a leadership role in 2015 to focus on his business and family
-</div>
-</article>
+{{% elder 
+    name="Dustin Sparks" 
+    img="https://secure.meetupstatic.com/photos/member/4/0/e/4/member_46456612.jpeg" 
+    desc="Founder of the PEI Developers group. Dustin carried the group for the first year and helped mold it into what it is today. Dustin stepped back from a leadership role in 2015 to focus on his business and family"
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/b/a/7/e/member_163727742.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Derek Campbell</strong> - One of the original members of the group. Derek was an active elder in 2013-2015 where he helped spread the group accross the island, bring the group through Summerside and beyond. 
-</div>
-</article>
+{{% elder 
+    name="Derek Campbell" 
+    img="https://secure.meetupstatic.com/photos/member/b/a/7/e/member_163727742.jpeg" 
+    desc="One of the original members of the group. Derek was an active elder in 2013-2015 where he helped spread the group accross the island, bring the group through Summerside and beyond. "
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/photos/member/a/b/1/a/member_89983802.jpeg"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Bob Shand</strong> - Another original member of the group. Bob was an early speaker at many events and helped run many of our most successful events. Much of the growth of the group can be attributed to Bob's work with Hackathons. Bob left the elder group after an employment change. You will now find Bob hosting Security B-Side conferences.
-</div>
-</article>
+{{% elder 
+    name="Bob Shand" 
+    img="https://secure.meetupstatic.com/photos/member/a/b/1/a/member_89983802.jpeg" 
+    desc="Another original member of the group. Bob was an early speaker at many events and helped run many of our most successful events. Much of the growth of the group can be attributed to Bob's work with Hackathons. Bob left the elder group after an employment change. You will now find Bob hosting Security B-Side conferences."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Ryan Palmer</strong> - Original Member of the group. Ryan taught the group early about tinkering with gadgets and Continuous Integration. Ryan was always a positive influence on the group until an employment opportunity took his talents to Toronto.
-</div>
-</article>
+{{% elder 
+    name="Ryan Palmer" 
+    img="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif" 
+    desc="Original Member of the group. Ryan taught the group early about tinkering with gadgets and Continuous Integration. Ryan was always a positive influence on the group until an employment opportunity took his talents to Toronto."
+%}}
 
-<article class="loop__item post clearfix">
-<figure class="loop__thumbnail">
-<img src="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif"> 
-</figure>
-<div class="loop__content clearfix">
-<strong>Steven Baker</strong> - He lived in Summerside for 2-3 years and was a co-organizer for some meetups and esp. the August 2013 hackathon. He was also a sponsor on occasion. Steven now lives in Sweden.
-</div>
-</article>
+{{% elder 
+    name="Steven Baker" 
+    img="https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif" 
+    desc="He lived in Summerside for 2-3 years and was a co-organizer for some meetups and esp. the August 2013 hackathon. He was also a sponsor on occasion. Steven now lives in Sweden."
+%}}
