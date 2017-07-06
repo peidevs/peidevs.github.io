@@ -8,7 +8,9 @@ title = "Code of Conduct"
 type = "page"
 
 +++
-# PEI Devs Code of Conduct
+
+
+#
 
 All attendees, speakers, sponsors and volunteers at our meetup and in our Slack Channel are required to agree with the following code of conduct. Organizers (the elder group, cat-herders and event runners) will enforce this code throughout the events we hold, and in our online forums such as our Slack channel. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
 
@@ -17,6 +19,7 @@ All attendees, speakers, sponsors and volunteers at our meetup and in our Slack 
 Contact a member of the Elders, or the cat-herder/organizer of the event.
 
 * [Current Elders](/about/)
+
 * In Slack, Elders can be identified by the Motar Board Hat icons
 
 ## Purpose
@@ -54,9 +57,13 @@ We expect participants to follow these rules at all PEI Devs meetups, events, an
 Here are the steps to report violations of our code of conduct:
 
 * Find the cat-herder, organizer, or a member of the Elders group
+
 * Describe the incident as best you can
+
 * The cat-herder, organizer or member of the Elder council will approach the offender and inform them of the behaviour and ask them to stop
+
 * If the offender refuses to stop the behaviour or repeats it, they will be expelled immediately
+
 * If the behaviour is judged too threatening, the offender may be expelled immediately at the discretion of the cat-herder/organizer or elder. Examples include but are not limited to: cat-calling or other aggressive behaviour
 
 ## Reminder
@@ -65,6 +72,6 @@ Please remember that the Elders, Cat-herders, event organizers, and especially o
 
 ## Credits and CoC License
 
-Original source and credit for the Code of Conduct: [http://2012.jsconf.us/#/about](http://2012.jsconf.us/#/about) &amp; [The Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
+Original source and credit for the Code of Conduct: [http://2012.jsconf.us/#/about](http://2012.jsconf.us/#/about) & [The Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
 
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US)
