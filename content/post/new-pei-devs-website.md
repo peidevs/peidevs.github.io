@@ -24,7 +24,6 @@ Jekyll runs off Ruby, so the first battle with using Jekyll was getting Ruby ins
 brew install rbenv
 rbenv install 2.3.0
 rbenv init
-
 ```
 
 During this process understanding that I needed a different version of ruby and getting installed was the biggest pain-point. Jekyll (along with Hugo) make things very easy to get all the boilerplate up and running. With all the complications of today's software world, I am so happy to see both companies took the time to create a nice clean interface to getting up and running fast.
@@ -50,7 +49,6 @@ After a bit of time away from the development of the site I decided to learn som
 ```
 brew install hugo
 hugo new site peiDevs
-
 ```
 
 I downloaded a theme ([mainroad](https://themes.gohugo.io/mainroad/)) and plunked it in the /themes/ folder, updated the Hugo config (`theme = "mainroad"`)  to point to the new theme and voila the site was up and running.
@@ -82,7 +80,6 @@ hugo
 copy public/ /temp/
 git checkout master
 copy /temp/ .
-
 ```
 
 In the above steps we build the site using hugo, copy the generated site out to a temp directory, checkout the master branch and then copy the files back to master. When you think of branches you generally think they should be hosting similar code but in our case, develop was the source and master is the generated site. They act as different repos. This may not be ideal but we can chalk this one up to some tech debt we can fix later.
@@ -108,7 +105,6 @@ While creating the markdown file for the about page we ran into a scenario where
       &amp;lt;strong&amp;amp;gt;Sean Whalley&amp;lt;/strong&amp;gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
    &amp;lt;/div&amp;gt;
 &amp;lt;/article&amp;gt;
-
 ```
 
 Markdown doesn't really allow for easy manipulation to remove the duplication. I tried using frontmatter to create loops and generate the content. But that isn't processed by Hugo for Markdown files when the site is generated. This just spit code out on the screen instead of rendering our Bios.
@@ -130,7 +126,6 @@ So I created a file called `elder.html` with the following content.
       <strong>{{ .Get "name" }}</strong> - {{ .Get "desc" }}
    </div>
 </article>
-
 ```
 
 This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode
