@@ -99,7 +99,7 @@ While creating the markdown file for the about page we ran into a scenario where
 ```html
 <article class="loop__item post clearfix">
    <figure class="loop__thumbnail">
-      <img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg">
+      <img src="member_159531172.jpeg">
    </figure>
    <div class="loop__content clearfix">
       <strong>Sean Whalley</strong> - Sean has been part of the group since the 2nd meetup. He has helped organize ...
@@ -131,8 +131,9 @@ So I created a file called `elder.html` with the following content.
 This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode
 
 ```html
-{{ &lt; elder name="Sean Whalley"
-  img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
+{{ < elder 
+  name="Sean Whalley"
+  img="member_159531172.jpeg"
   desc="Sean has been part of the group since the 2nd meetup. He has helped organize ..."
 }}
 ```
