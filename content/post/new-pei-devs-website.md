@@ -7,9 +7,11 @@ thumbnail = ""
 title = "New PEI Devs Website"
 
 +++
+
+
 In July 2015 the group determined we should have some web presence to create a compilation of all of our resources in one area. [Michael](https://twitter.com/codetojoy) stepped up and created us a very simple bootstrap website with all of the resources jammed on the site to have the single source of information we desired.
 
-We knew this was never going to have this as a long term solution and started thinking about what we wanted for a website. September of 2015 an [issue](https://github.com/peidevs/peidevs.github.io/issues/2) was logged to start revamping to have a proper website. <span style="font-size: 1rem;">Around this time we met the folks at </span><a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a><span style="font-size: 1rem;"> who introduced us to static website generators </span><a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a><span style="font-size: 1rem;"> and </span><a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a>
+We knew this was never going to be a long term solution and started thinking about what we wanted for a website. September of 2015 an [issue](https://github.com/peidevs/peidevs.github.io/issues/2) was logged to start revamping to have a proper website. <span style="font-size: 1rem;">Around this time we met the folks at </span><a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a><span style="font-size: 1rem;"> who introduced us to static website generators </span><a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a><span style="font-size: 1rem;"> and </span><a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a>
 
 The rest of this document will talk about the technical hurdles and lessons learned from this project.
 
@@ -23,6 +25,7 @@ Jekyll runs off Ruby, so the first battle with using Jekyll was getting Ruby ins
 brew install rbenv
 rbenv install 2.3.0
 rbenv init
+
 ```
 
 During this process understanding that I needed a different version of ruby and getting installed was the biggest pain-point. Jekyll (along with Hugo) make things very easy to get all the boilerplate up and running. With all the complications of today's software world, I am so happy to see both companies took the time to create a nice clean interface to getting up and running fast.
@@ -48,6 +51,7 @@ After a bit of time away from the development of the site I decided to learn som
 ```
 brew install hugo
 hugo new site peiDevs
+
 ```
 
 I downloaded a theme ([mainroad](https://themes.gohugo.io/mainroad/)) and plunked it in the /themes/ folder, updated the Hugo config (`theme = "mainroad"`)  to point to the new theme and voila the site was up and running.
@@ -79,6 +83,7 @@ hugo
 copy public/ /temp/
 git checkout master
 copy /temp/ .
+
 ```
 
 In the above steps we build the site using hugo, copy the generated site out to a temp directory, checkout the master branch and then copy the files back to master. When you think of branches you generally think they should be hosting similar code but in our case, develop was the source and master is the generated site. They act as different repos. This may not be ideal but we can chalk this one up to some tech debt we can fix later.
@@ -95,15 +100,16 @@ As part of the new site we wanted to introduce everyone to our [Elders](https://
 
 While creating the markdown file for the about page we ran into a scenario where we had duplicate html content for our elders. Each elder that is added to the list had duplication in the mark and if we ever decide to change the format of the site it wouldn't be easy to change all of them. Past and present there have been 12 elders. Duplicating this markup is expensive. Each elders Bio looked similar to
 
-```html
-<article class="loop__item post clearfix">
-   <figure class="loop__thumbnail">
-      <img src="member_159531172.jpeg">
-   </figure>
-   <div class="loop__content clearfix">
-      <strong>Sean Whalley</strong> - Sean has been part of the group since the 2nd meetup. He has helped organize ...
-   </div>
-</article>
+```
+&lt;article class="loop__item post clearfix"&gt;
+   &lt;figure class="loop__thumbnail"&gt;
+      &lt;img src="member_159531172.jpeg"&gt;
+   &lt;/figure&gt;
+   &lt;div class="loop__content clearfix"&gt;
+      &lt;strong&gt;Sean Whalley&lt;/strong&gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+   &lt;/div&gt;
+&lt;/article&gt;
+
 ```
 
 Markdown doesn't really allow for easy manipulation to remove the duplication. I tried using frontmatter to create loops and generate the content. But that isn't processed by Hugo for Markdown files when the site is generated. This just spit code out on the screen instead of rendering our Bios.
@@ -116,30 +122,34 @@ So I setoff on an adventure to create my own shortcode for Elders. The direction
 
 So I created a file called `elder.html` with the following content.
 
-```html
-<article class="loop__item post clearfix">
-   <figure class="loop__thumbnail">
-      <img src='{{ .Get "img" }}'>
-   </figure>
-   <div class="loop__content clearfix">
-      <strong>{{ .Get "name" }}</strong> - {{ .Get "desc" }}
-   </div>
-</article>
+```
+&lt;article class="loop__item post clearfix"&gt;
+   &lt;figure class="loop__thumbnail"&gt;
+      &lt;img src='{{ .Get "img" }}'&gt;
+   &lt;/figure&gt;
+   &lt;div class="loop__content clearfix"&gt;
+      &lt;strong&gt;{{ .Get "name" }}&lt;/strong&gt; - {{ .Get "desc" }}
+   &lt;/div&gt;
+&lt;/article&gt;
+
 ```
 
 This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode
 
-```html
-{{ < elder 
+```
+{{ &lt; elder 
   name="Sean Whalley"
   img="member_159531172.jpeg"
   desc="Sean has been part of the group since the 2nd meetup. He has helped organize ..."
 }}
+
 ```
 
 First run was a disaster. After starting up the site after first use I was greeted with the error
 
-> unable to locate template for shortcode "elder" in page "about.md"
+<blockquote>
+<p>unable to locate template for shortcode "elder" in page "about.md"</p>
+</blockquote>
 
 This turned out to be a [bug](https://github.com/gohugoio/hugo/issues/3340) in the version of Hugo I was using. I promptly upgraded Hugo (`brew upgrade`) from `0.20.2`<span style="font-size: 1rem;"> to&nbsp;</span>`0.22.1`<span style="font-size: 1rem;"> and like any upgrade in an early release, I was expecting the worse. Breaking changes etc. But the upgrade was clean and easy. I repointed forestry to use the newer version of Hugo in their configuration menu and everything just worked.</span>
 
