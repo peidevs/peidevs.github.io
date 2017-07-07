@@ -119,26 +119,26 @@ I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I wa
 
 This takes the id of the tweet and when Hugo generates the site it auto converts it to the proper markup needed to display a tweet properly.
 
-So I setoff on an adventure to create my own shortcode for Elders. The directions were not too complicated. Create an html file under `/layouts/shortcodes` and put all your markup required in that file and then use your shortcode. No extra configuration, hugo is able to pick it up.
+So I setoff on an adventure to create my own shortcode for Elders. The directions were not too complicated. Create an html file under `/layouts/shortcodes` and put all your markup required in that file and then use your shortcode. No extra configuration, Hugo is able to pick it up.
 
 So I created a file called `elder.html` with the following content.
 
 ```
-&amp;lt;article class="loop__item post clearfix"&amp;gt;
-   &amp;lt;figure class="loop__thumbnail"&amp;gt;
-      &amp;lt;img src='{{ .Get "img" }}'&amp;gt;
-   &amp;lt;/figure&amp;gt;
-   &amp;lt;div class="loop__content clearfix"&amp;gt;
-      &amp;lt;strong&amp;gt;{{ .Get "name" }}&amp;lt;/strong&amp;gt; - {{ .Get "desc" }}
-   &amp;lt;/div&amp;gt;
-&amp;lt;/article&amp;gt;
+&lt;article class="loop__item post clearfix"&gt;
+   &lt;figure class="loop__thumbnail"&gt;
+      &lt;img src='{{ .Get "img" }}'&gt;
+   &lt;/figure&gt;
+   &lt;div class="loop__content clearfix"&gt;
+      &lt;strong&gt;{{ .Get "name" }}&lt;/strong&gt; - {{ .Get "desc" }}
+   &lt;/div&gt;
+&lt;/article&gt;
 
 ```
 
-This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shordcode
+This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode
 
 ```
-{{&amp;lt; elder name="Sean Whalley"
+{{&lt; elder name="Sean Whalley"
   img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
   desc="Sean has been part of the group since the 2nd meetup. He has helped organize ...
 }}
