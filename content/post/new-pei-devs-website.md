@@ -14,17 +14,21 @@ In July 2015 the group determined we should have some web presence to create a c
 
 We knew this was never going to have this as a long term solution and started thinking about what we wanted for a website. September of 2015 an [issue](https://github.com/peidevs/peidevs.github.io/issues/2) was logged to start revamping to have a proper website. <span style="font-size: 1rem;">Around this time we met the folks at </span><a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a><span style="font-size: 1rem;"> who introduced us to static website generators </span><a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a><span style="font-size: 1rem;"> and </span><a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a>
 
-The rest of this document will talk about the technical hurdles and lessons learned from this project
+The rest of this document will talk about the technical hurdles and lessons learned from this project.
 
-First rollout with own theme w/ Jekyll
+### Stage 1 - Deep Dive into Jekyll with our own theme
 
-Hugo and Hugo Themes, submodules
+### Stage 2 - Pivoting to Hugo
 
-Branching, Deploy and Forestry magic
+### Stage 3 - Hello Forestry
 
-Shortcodes
+Loading in Forestry, oops I shared the same branch, migrating content.
 
-How to Develop
+### Stage 4 - Branching and Deploy Strategy
+
+### Stage 5 - Removing Duplication w/ Shortcodes
+
+### Appendix - Ongoing Development
 
 Hope you enjoyed
 
