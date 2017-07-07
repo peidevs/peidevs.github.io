@@ -2,7 +2,6 @@
 categories = []
 date = "2017-07-07T13:36:00-03:00"
 description = ""
-draft = true
 tags = []
 thumbnail = ""
 title = "New PEI Devs Website"
