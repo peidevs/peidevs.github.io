@@ -115,7 +115,11 @@ While creating the markdown file for the about page we ran into a scenario where
 
 Markdown doesn't really allow for easy manipulation to remove the duplication. I tried using frontmatter to create loops and generate the content. But that isn't processed by Hugo for Markdown files when the site is generated. This just spit code out on the screen instead of rendering our Bios.
 
-I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts.
+I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts. Shortcodes allow you to hide markdown and provide just the data need for a tag. As an exmaple, a tweet uses the following shortcode
+
+`{{< tweet 582300093895847937 }}`
+
+This takes the id of the tweet and when Hugo generates the site it auto converts it to the proper markup needed to display a tweet properly.
 
 <hr>
 
