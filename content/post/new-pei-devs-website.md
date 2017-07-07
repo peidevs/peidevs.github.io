@@ -8,6 +8,8 @@ thumbnail = ""
 title = "New PEI Devs Website"
 
 +++
+
+
 In July 2015 the group determined we should have some web presence to create a compilation of all of our resources in one area. [Michael](https://twitter.com/codetojoy) stepped up and created us a very simple bootstrap website with all of the resources jammed on the site to have the single source of information we desired.
 
 We knew this was never going to have this as a long term solution and started thinking about what we wanted for a website. September of 2015 an [issue](https://github.com/peidevs/peidevs.github.io/issues/2) was logged to start revamping to have a proper website. <span style="font-size: 1rem;">Around this time we met the folks at </span><a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a><span style="font-size: 1rem;"> who introduced us to static website generators </span><a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a><span style="font-size: 1rem;"> and </span><a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a>
@@ -100,21 +102,20 @@ As part of the new site we wanted to introduce everyone to our [Elders](https://
 While creating the markdown file for the about page we ran into a scenario where we had duplicate html content for our elders. Each elder that is added to the list had duplication in the mark and if we ever decide to change the format of the site it wouldn't be easy to change all of them. Past and present there have been 12 elders. Duplicating this markup is expensive. Each elders Bio looked similar to
 
 ```
-<article class="loop__item post clearfix">
-   <figure class="loop__thumbnail">
-      <img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg">
-   </figure>
-   <div class="loop__content clearfix">
-      <strong&gt;Sean Whalley</strong> - Sean has been part of the group since the 2nd meetup. He has helped organize ...
-   </div>
-</article>
+&amp;lt;article class="loop__item post clearfix"&amp;gt;
+   &amp;lt;figure class="loop__thumbnail"&amp;gt;
+      &amp;lt;img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&amp;gt;
+   &amp;lt;/figure&amp;gt;
+   &amp;lt;div class="loop__content clearfix"&amp;gt;
+      &amp;lt;strong&amp;amp;gt;Sean Whalley&amp;lt;/strong&amp;gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+   &amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
+
 ```
 
 Markdown doesn't really allow for easy manipulation to remove the duplication. I tried using frontmatter to create loops and generate the content. But that isn't processed by Hugo for Markdown files when the site is generated. This just spit code out on the screen instead of rendering our Bios.
 
-I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts. Shortcodes allow you to hide markdown and provide just the data need for a tag. As an exmaple, a tweet uses the following shortcode
-
-`{{< tweet 582300093895847937 }}`
+I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts. Shortcodes allow you to hide markdown and provide just the data need for a tag.
 
 This takes the id of the tweet and when Hugo generates the site it auto converts it to the proper markup needed to display a tweet properly.
 
@@ -123,24 +124,25 @@ So I setoff on an adventure to create my own shortcode for Elders. The direction
 So I created a file called `elder.html` with the following content.
 
 ```
-<article class="loop__item post clearfix">
-   <figure class="loop__thumbnail">
-      <img src='{{ .Get "img" }}'>
-   </figure>
-   <div class="loop__content clearfix">
-      <strong>{{ .Get "name" }}</strong> - {{ .Get "desc" }}
-   </div>
-</article>
+&amp;lt;article class="loop__item post clearfix"&amp;gt;
+   &amp;lt;figure class="loop__thumbnail"&amp;gt;
+      &amp;lt;img src='{{ .Get "img" }}'&amp;gt;
+   &amp;lt;/figure&amp;gt;
+   &amp;lt;div class="loop__content clearfix"&amp;gt;
+      &amp;lt;strong&amp;gt;{{ .Get "name" }}&amp;lt;/strong&amp;gt; - {{ .Get "desc" }}
+   &amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
 
 ```
 
 This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shordcode
 
 ```
-{{< elder name="Sean Whalley"
+{{&amp;lt; elder name="Sean Whalley"
   img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
   desc="Sean has been part of the group since the 2nd meetup. He has helped organize ...
 }}
+
 ```
 
 First run was a disaster. After starting up the site after first use I was greeted with the error
