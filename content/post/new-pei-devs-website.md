@@ -102,14 +102,14 @@ As part of the new site we wanted to introduce everyone to our [Elders](https://
 While creating the markdown file for the about page we ran into a scenario where we had duplicate html content for our elders. Each elder that is added to the list had duplication in the mark and if we ever decide to change the format of the site it wouldn't be easy to change all of them. Past and present there have been 12 elders. Duplicating this markup is expensive. Each elders Bio looked similar to
 
 ```
-&lt;article class="loop__item post clearfix"&gt;
-   &lt;figure class="loop__thumbnail"&gt;
-      &lt;img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&gt;
-   &lt;/figure&gt;
-   &lt;div class="loop__content clearfix"&gt;
-      &lt;strong&gt;Sean Whalley&lt;/strong&gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
-   &lt;/div&gt;
-&lt;/article&gt;
+&amp;lt;article class="loop__item post clearfix"&amp;gt;
+   &amp;lt;figure class="loop__thumbnail"&amp;gt;
+      &amp;lt;img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&amp;gt;
+   &amp;lt;/figure&amp;gt;
+   &amp;lt;div class="loop__content clearfix"&amp;gt;
+      &amp;lt;strong&amp;gt;Sean Whalley&amp;lt;/strong&amp;gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+   &amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
 
 ```
 
@@ -117,14 +117,48 @@ Markdown doesn't really allow for easy manipulation to remove the duplication. I
 
 I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts. Shortcodes allow you to hide markdown and provide just the data need for a tag. As an exmaple, a tweet uses the following shortcode
 
-`{{&lt; tweet 582300093895847937 }}`
+`{{&amp;lt; tweet 582300093895847937 }}`
 
 This takes the id of the tweet and when Hugo generates the site it auto converts it to the proper markup needed to display a tweet properly.
 
-So I setoff on an adventure to create my own shortcode for Elders. The directions were not too complicated. Create a file under `/layouts/shortcodes`
+So I setoff on an adventure to create my own shortcode for Elders. The directions were not too complicated. Create an html file under `/layouts/shortcodes` and put all your markup required in that file and then use your shortcode. No extra configuration, hugo is able to pick it up.
+
+So I created a file called `elder.html` with the following content.
+
+```
+&lt;article class="loop__item post clearfix"&gt;
+   &lt;figure class="loop__thumbnail"&gt;
+      &lt;img src='{{ .Get "img" }}'&gt;
+   &lt;/figure&gt;
+   &lt;div class="loop__content clearfix"&gt;
+      &lt;strong&gt;{{ .Get "name" }}&lt;/strong&gt; - {{ .Get "desc" }}
+   &lt;/div&gt;
+&lt;/article&gt;
+
+```
+
+This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shordcode
+
+```
+
+{{< elder name="Sean Whalley"
+
+<span style="font-size: 1rem;">img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"</span>
+
+<span style="font-size: 1rem;">desc="</span><span style="font-size: 1rem;">Sean has been part of the group since the 2nd meetup. He has helped organize ...</span><span style="font-size: 1rem;">" }}</span>
+
+<span style="font-size: 1rem;">```</span>
+
+First run was a disaster. After starting up the site after first use I was greeted with the error
+
+`unable to locate template for shortcode "elder" in page "about.md"`​
+
+This turned out to be a [bug](https://github.com/gohugoio/hugo/issues/3340) in the version of Hugo I was using. I promptly upgraded Hugo (`brew upgrade`) from `0.20.2`<span style="font-size: 1rem;">​ to&nbsp;</span>`0.22.1`<span style="font-size: 1rem;">​ and like any upgrade in an early release, I was expecting the worse. Breaking changes etc. But the upgrade was clean and easy. I repointed forestry to use the newer version of Hugo in their configuration menu and everything just worked.</span>
 
 <hr>
 
-<span style="font-size: 1rem;">Anyway that is the adventure of the new site, h</span><span style="font-size: 1rem;">ope you enjoyed</span>
+<span style="font-size: 1rem;">At this point we are at today. We are still logging and fixing some issues but the site is stable.&nbsp;</span>
+
+<span style="font-size: 1rem;">That is the adventure of the new site, h</span><span style="font-size: 1rem;">ope you enjoyed</span>
 
 -Sean Whalley
