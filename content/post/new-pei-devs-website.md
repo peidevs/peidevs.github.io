@@ -107,7 +107,7 @@ While creating the markdown file for the about page we ran into a scenario where
       &lt;img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&gt;
    &lt;/figure&gt;
    &lt;div class="loop__content clearfix"&gt;
-   &lt;strong&gt;Sean Whalley&lt;/strong&gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+      &lt;strong&gt;Sean Whalley&lt;/strong&gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
    &lt;/div&gt;
 &lt;/article&gt;
 
@@ -117,9 +117,11 @@ Markdown doesn't really allow for easy manipulation to remove the duplication. I
 
 I was introduced to [shortcodes](https://gohugo.io/extras/shortcodes/) when I was migrating the blogs over and needed to embed tweets into the blog posts. Shortcodes allow you to hide markdown and provide just the data need for a tag. As an exmaple, a tweet uses the following shortcode
 
-`{{< tweet 582300093895847937 }}`
+`{{&lt; tweet 582300093895847937 }}`
 
 This takes the id of the tweet and when Hugo generates the site it auto converts it to the proper markup needed to display a tweet properly.
+
+So I setoff on an adventure to create my own shortcode for Elders. The directions were not too complicated. Create a file under `/layouts/shortcodes`
 
 <hr>
 
