@@ -45,6 +45,8 @@ My biggest takeway from working with Jekyll were their `/_data/`<span style="fo
 
 <span style="font-size: 1rem;">Demo:&nbsp;</span><span style="font-size: 1rem;"><a href="https://swhalley.github.io/sampleJekyl/">https://swhalley.github.io/sampleJekyl/</a></span>
 
+If you want to run the site locally, feel free to pull the code down yourself and follow the direction in the readme file from the source link.
+
 ### Stage 2 - Pivoting to Hugo
 
 After a bit of time away from the development of the site I decided to learn something new and try out Hugo to see if there was anything I was missing
