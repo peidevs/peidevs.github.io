@@ -50,7 +50,7 @@
 
 <p>In July 2015 the group determined we should have some web presence to create a compilation of all of our resources in one area. <a href="https://twitter.com/codetojoy">Michael</a> stepped up and created us a very simple bootstrap website with all of the resources jammed on the site to have the single source of information we desired.</p>
 
-<p>We knew this was never going to be a long term solution and started thinking about what we wanted for a website. September of 2015 an <a href="https://github.com/peidevs/peidevs.github.io/issues/2">issue</a> was logged to start revamping to have a proper website. <span style="font-size: 1rem;">Around this time we met the folks at </span><a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a><span style="font-size: 1rem;"> who introduced us to static website generators </span><a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a><span style="font-size: 1rem;"> and </span><a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a></p>
+<p>We knew this was never going to be a long term solution and started thinking about what we wanted for a website. September of 2015 an <a href="https://github.com/peidevs/peidevs.github.io/issues/2">issue</a> was logged to start revamping to have a proper website. Around this time we met the folks at <a href="https://forestry.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Forestry.io</a> who introduced us to static website generators <a href="https://jekyllrb.com/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Jekyll</a> and <a href="https://gohugo.io/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Hugo</a></p>
 
 <p>The rest of this document will talk about the technical hurdles and lessons learned from this project.</p>
 
@@ -58,27 +58,26 @@
 
 <p>The initial work on the new site started in June 2016. I have never used a static site generator before so I just picked one to try. I dove head first into Jekyll because it was the first one mentioned to me. At the time I was playing around with Flexbox quite a bit so I decided to roll my own theme during this process (wrong choice).</p>
 
-<p>Jekyll runs off Ruby, so the first battle with using Jekyll was getting Ruby installed on my macbook. like most, first thing I run is <code>ruby --version</code><span style="font-size: 1rem;">​ to see if I have ruby installed. I get a version returned, Great!! my mac has ruby installed so I should be able to just start developing. But No. Come to find out the system version preinstalled on the mac is not new enough, nor should I upgrade this version as it could break my mac. Of course in this day of </span>development<span style="font-size: 1rem;">, the solution was to install a package manager to install what I need. So I grabbed&nbsp;</span><code>rbenv</code><span style="font-size: 1rem;">​ to manage the ruby versions on my macbook. Commands ran to get this up and running:</span></p>
+<p>Jekyll runs off Ruby, so the first battle with using Jekyll was getting Ruby installed on my macbook. like most, first thing I run is <code>ruby --version</code>​ to see if I have ruby installed. I get a version returned, Great!! my mac has ruby installed so I should be able to just start developing. But No. Come to find out the system version preinstalled on the mac is not new enough, nor should I upgrade this version as it could break my mac. Of course in this day of development, the solution was to install a package manager to install what I need. So I grabbed&nbsp;<code>rbenv</code>​ to manage the ruby versions on my macbook. Commands ran to get this up and running:</p>
 
 <pre><code>brew install rbenv
 rbenv install 2.3.0
 rbenv init
-
 </code></pre>
 
 <p>During this process understanding that I needed a different version of ruby and getting installed was the biggest pain-point. Jekyll (along with Hugo) make things very easy to get all the boilerplate up and running. With all the complications of today&rsquo;s software world, I am so happy to see both companies took the time to create a nice clean interface to getting up and running fast.</p>
 
 <p>Jekyll maintains a <a href="https://jekyllrb.com/docs/quickstart/">quick start guide </a>which is very simple to follow. After ruby was installed, I had a site up and running in less than 5 minutes. This was a great feeling to be up and running so fast.</p>
 
-<p>Rolling a theme was easy in Jekyll as there was no boilerplate theme I had to cleanup and I could begin. Flexbox is a great CSS feature that makes div/float hell go away. No more inline blocks with offsetting 4 px tricks to get things to align properly. The markup ended up being very clean with only a <code>main.css</code><span style="font-size: 1rem;">​ and&nbsp;</span><code>responsive.css</code><span style="font-size: 1rem;">​ file for mobile devices. The theme </span>colors<span style="font-size: 1rem;">&nbsp;used were based on the PEI flag, so there was a bunch of green on the site.&nbsp;</span></p>
+<p>Rolling a theme was easy in Jekyll as there was no boilerplate theme I had to cleanup and I could begin. Flexbox is a great CSS feature that makes div/float hell go away. No more inline blocks with offsetting 4 px tricks to get things to align properly. The markup ended up being very clean with only a <code>main.css</code>​ and&nbsp;<code>responsive.css</code>​ file for mobile devices. The theme colors&nbsp;used were based on the PEI flag, so there was a bunch of green on the site.&nbsp;</p>
 
-<p>My biggest takeaway from working with Jekyll were their <code>/_data/</code><span style="font-size: 1rem;">​ folders. Being able to have the static content pulled out into simple&nbsp;</span><code>.yml</code><span style="font-size: 1rem;">​ files made it easy to maintain larger more dynamic parts of the application. Our site has a large Bio section for all of the elders past and present. The yml file helped remove a lot of duplication and I was create the data in a </span>separate<span style="font-size: 1rem;">&nbsp;file and iterate over the data. Removing the duplication, as some of you may know, is my favorite thing to do in code. Finding duplication and deleting code makes me happy.&nbsp;</span></p>
+<p>My biggest takeaway from working with Jekyll were their <code>/_data/</code>​ folders. Being able to have the static content pulled out into simple&nbsp;<code>.yml</code>​ files made it easy to maintain larger more dynamic parts of the application. Our site has a large Bio section for all of the elders past and present. The yml file helped remove a lot of duplication and I was create the data in a separate&nbsp;file and iterate over the data. Removing the duplication, as some of you may know, is my favorite thing to do in code. Finding duplication and deleting code makes me happy.&nbsp;</p>
 
-<p><span style="font-size: 1rem;">The site was coming along good but real life caught up to me and I had to shelf the project for a few months. If you have interest in seeing how the site looked when it was shelved you are welcome to check it out on my github page</span></p>
+<p>The site was coming along good but real life caught up to me and I had to shelf the project for a few months. If you have interest in seeing how the site looked when it was shelved you are welcome to check it out on my github page</p>
 
-<p><span style="font-size: 1rem;">Source :&nbsp;</span><span style="font-size: 1rem;"><a href="https://github.com/swhalley/sampleJekyl">https://github.com/swhalley/sampleJekyl</a></span></p>
+<p>Source :&nbsp;<a href="https://github.com/swhalley/sampleJekyl">https://github.com/swhalley/sampleJekyl</a></p>
 
-<p><span style="font-size: 1rem;">Demo:&nbsp;</span><span style="font-size: 1rem;"><a href="https://swhalley.github.io/sampleJekyl/">https://swhalley.github.io/sampleJekyl/</a></span></p>
+<p>Demo:&nbsp;<a href="https://swhalley.github.io/sampleJekyl/">https://swhalley.github.io/sampleJekyl/</a></p>
 
 <p>If you want to run the site locally, feel free to pull the code down yourself and follow the direction in the readme file from the source link.</p>
 
@@ -88,7 +87,6 @@ rbenv init
 
 <pre><code>brew install hugo
 hugo new site peiDevs
-
 </code></pre>
 
 <p>I downloaded a theme (<a href="https://themes.gohugo.io/mainroad/">mainroad</a>) and plunked it in the /themes/ folder, updated the Hugo config (<code>theme = &quot;mainroad&quot;</code>)  to point to the new theme and voila the site was up and running.</p>
@@ -113,13 +111,12 @@ hugo new site peiDevs
 
 <p>Now that the development side of things were stable and most of the content was created or migrated it was time to think about how we would deploy and keep the site updated.</p>
 
-<p>Our main site is located at <a href="https://peidevs.github.io">peidevs.github.io</a> using an organization site with github. We were looking to retain that URL and needed a way to deploy there easily. Github uses a branching strategy where normally your source code lives in master/develop branch and you use a <code>gh-pages</code> branch to display your site. with the organization site, the <code>master</code> branch is where the content is served. This meant we needed another branch or repository to host our source code. Without thinking about this too much I created a <code>develop</code><span style="font-size: 1rem;">​ branch to host the source code and then build the code from there. The manual steps to build were a bit of a pain.</span></p>
+<p>Our main site is located at <a href="https://peidevs.github.io">peidevs.github.io</a> using an organization site with github. We were looking to retain that URL and needed a way to deploy there easily. Github uses a branching strategy where normally your source code lives in master/develop branch and you use a <code>gh-pages</code> branch to display your site. with the organization site, the <code>master</code> branch is where the content is served. This meant we needed another branch or repository to host our source code. Without thinking about this too much I created a <code>develop</code>​ branch to host the source code and then build the code from there. The manual steps to build were a bit of a pain.</p>
 
 <pre><code>hugo
 copy public/ /temp/
 git checkout master
 copy /temp/ .
-
 </code></pre>
 
 <p>In the above steps we build the site using hugo, copy the generated site out to a temp directory, checkout the master branch and then copy the files back to master. When you think of branches you generally think they should be hosting similar code but in our case, develop was the source and master is the generated site. They act as different repos. This may not be ideal but we can chalk this one up to some tech debt we can fix later.</p>
@@ -136,15 +133,14 @@ copy /temp/ .
 
 <p>While creating the markdown file for the about page we ran into a scenario where we had duplicate html content for our elders. Each elder that is added to the list had duplication in the mark and if we ever decide to change the format of the site it wouldn&rsquo;t be easy to change all of them. Past and present there have been 12 elders. Duplicating this markup is expensive. Each elders Bio looked similar to</p>
 
-<pre><code>&amp;lt;article class=&quot;loop__item post clearfix&quot;&amp;gt;
-   &amp;lt;figure class=&quot;loop__thumbnail&quot;&amp;gt;
-      &amp;lt;img src=&quot;member_159531172.jpeg&quot;&amp;gt;
-   &amp;lt;/figure&amp;gt;
-   &amp;lt;div class=&quot;loop__content clearfix&quot;&amp;gt;
-      &amp;lt;strong&amp;gt;Sean Whalley&amp;lt;/strong&amp;gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
-   &amp;lt;/div&amp;gt;
-&amp;lt;/article&amp;gt;
-
+<pre><code class="language-html">&lt;article class=&quot;loop__item post clearfix&quot;&gt;
+   &lt;figure class=&quot;loop__thumbnail&quot;&gt;
+      &lt;img src=&quot;member_159531172.jpeg&quot;&gt;
+   &lt;/figure&gt;
+   &lt;div class=&quot;loop__content clearfix&quot;&gt;
+      &lt;strong&gt;Sean Whalley&lt;/strong&gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+   &lt;/div&gt;
+&lt;/article&gt;
 </code></pre>
 
 <p>Markdown doesn&rsquo;t really allow for easy manipulation to remove the duplication. I tried using frontmatter to create loops and generate the content. But that isn&rsquo;t processed by Hugo for Markdown files when the site is generated. This just spit code out on the screen instead of rendering our Bios.</p>
@@ -157,25 +153,23 @@ copy /temp/ .
 
 <p>So I created a file called <code>elder.html</code> with the following content.</p>
 
-<pre><code>&amp;lt;article class=&quot;loop__item post clearfix&quot;&amp;gt;
-   &amp;lt;figure class=&quot;loop__thumbnail&quot;&amp;gt;
-      &amp;lt;img src='{{ .Get &quot;img&quot; }}'&amp;gt;
-   &amp;lt;/figure&amp;gt;
-   &amp;lt;div class=&quot;loop__content clearfix&quot;&amp;gt;
-      &amp;lt;strong&amp;gt;{{ .Get &quot;name&quot; }}&amp;lt;/strong&amp;gt; - {{ .Get &quot;desc&quot; }}
-   &amp;lt;/div&amp;gt;
-&amp;lt;/article&amp;gt;
-
+<pre><code class="language-html">&lt;article class=&quot;loop__item post clearfix&quot;&gt;
+   &lt;figure class=&quot;loop__thumbnail&quot;&gt;
+      &lt;img src='{{ .Get &quot;img&quot; }}'&gt;
+   &lt;/figure&gt;
+   &lt;div class=&quot;loop__content clearfix&quot;&gt;
+      &lt;strong&gt;{{ .Get &quot;name&quot; }}&lt;/strong&gt; - {{ .Get &quot;desc&quot; }}
+   &lt;/div&gt;
+&lt;/article&gt;
 </code></pre>
 
 <p>This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode</p>
 
-<pre><code>{{ &amp;lt; elder 
+<pre><code class="language-html">{{ &lt; elder 
   name=&quot;Sean Whalley&quot;
   img=&quot;member_159531172.jpeg&quot;
   desc=&quot;Sean has been part of the group since the 2nd meetup. He has helped organize ...&quot;
 }}
-
 </code></pre>
 
 <p>First run was a disaster. After starting up the site after first use I was greeted with the error</p>
@@ -184,13 +178,13 @@ copy /temp/ .
 <p>unable to locate template for shortcode "elder" in page "about.md"</p>
 </blockquote>
 
-<p>This turned out to be a <a href="https://github.com/gohugoio/hugo/issues/3340">bug</a> in the version of Hugo I was using. I promptly upgraded Hugo (<code>brew upgrade</code>) from <code>0.20.2</code><span style="font-size: 1rem;"> to&nbsp;</span><code>0.22.1</code><span style="font-size: 1rem;"> and like any upgrade in an early release, I was expecting the worse. Breaking changes etc. But the upgrade was clean and easy. I repointed forestry to use the newer version of Hugo in their configuration menu and everything just worked.</span></p>
+<p>This turned out to be a <a href="https://github.com/gohugoio/hugo/issues/3340">bug</a> in the version of Hugo I was using. I promptly upgraded Hugo (<code>brew upgrade</code>) from <code>0.20.2</code> to&nbsp;<code>0.22.1</code> and like any upgrade in an early release, I was expecting the worse. Breaking changes etc. But the upgrade was clean and easy. I repointed forestry to use the newer version of Hugo in their configuration menu and everything just worked.</p>
 
 <hr>
 
-<p><span style="font-size: 1rem;">At this point we are at today. We are still logging and fixing some issues but the site is stable.&nbsp;</span></p>
+<p>At this point we are at today. We are still logging and fixing some issues but the site is stable.&nbsp;</p>
 
-<p><span style="font-size: 1rem;">That is the adventure of the new site, h</span><span style="font-size: 1rem;">ope you enjoyed</span></p>
+<p>That is the adventure of the new site, hope you enjoyed</p>
 
 <p>-Sean Whalley</p>
 
