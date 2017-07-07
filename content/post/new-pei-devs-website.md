@@ -67,9 +67,17 @@ While editing posts I had access to both a wysiwyg editor for the raw copy/paste
 
 When the migration was completed, the next step was to setup some of our boilerplate pages. Our [About](http://peidevs.github.io/about/) and [Code of Conduct](http://peidevs.github.io/code/) Pages were up next. Again the editors came in handy for these pages. We were able to delegate the tasks of getting this content written and it all came together pretty quickly. Members of the elder group stepped up to proofread documents and write their Bios. Some came in via Slack and others via Pull Requests and I was able to quickly pull these into the codebase via Forestry.
 
-Forestry allowed me to create our navigation menus and manage their order and content easily.
+Forestry allowed me to create our navigation menus and manage their order and content easily. The site contained two menus which are now easily updated via anyone with access to our account.
+
+During the process, the team at Forestry were very responsive in helping out answer questions as well as taking suggestions and feedback about my experience.
+
+My big oops moment with Forestry came when I accidentally set both my source code branch and deploy location to be the same branch in github. When I clicked publish for the first time it overwrote a lot of content and I had to recreate the repository. Luckily I had not pulled down the changes so I was able to repoint my remote origin location. Nuke the remote repository and recreate things without any lose.
 
 ### Stage 4 - Branching and Deploy Strategy
+
+Now that the development side of things were stable and most of the content was created or migrated it was time to think about how we would deploy and keep the site updated.
+
+Our main site is located at [peidevs.github.io](https://peidevs.github.io) using an organization site with github.
 
 ### Stage 5 - Removing Duplication w/ Shortcodes
 
