@@ -96,13 +96,13 @@ As part of the new site we wanted to introduce everyone to our [Elders](https://
 
 While creating the markdown file for the about page we ran into a scenario where we had duplicate html content for our elders. Each elder that is added to the list had duplication in the mark and if we ever decide to change the format of the site it wouldn't be easy to change all of them. Past and present there have been 12 elders. Duplicating this markup is expensive. Each elders Bio looked similar to
 
-```
-&amp;lt;article class="loop__item post clearfix"&amp;gt;
-   &amp;lt;figure class="loop__thumbnail"&amp;gt;
-      &amp;lt;img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&amp;gt;
-   &amp;lt;/figure&amp;gt;
-   &amp;lt;div class="loop__content clearfix"&amp;gt;
-      &amp;lt;strong&amp;amp;gt;Sean Whalley&amp;lt;/strong&amp;gt; - Sean has been part of the group since the 2nd meetup. He has helped organize ...
+```html
+<article class="loop__item post clearfix"&amp;gt;
+   <figure class="loop__thumbnail"&amp;gt;
+      <img src="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"&amp;gt;
+   </figure&amp;gt;
+   <div class="loop__content clearfix"&amp;gt;
+      <strong>Sean Whalley</strong> - Sean has been part of the group since the 2nd meetup. He has helped organize ...
    &amp;lt;/div&amp;gt;
 &amp;lt;/article&amp;gt;
 ```
