@@ -121,15 +121,15 @@ So I setoff on an adventure to create my own shortcode for Elders. The direction
 
 So I created a file called `elder.html` with the following content.
 
-```
-&lt;article class="loop__item post clearfix"&gt;
-   &lt;figure class="loop__thumbnail"&gt;
-      &lt;img src='{{ .Get "img" }}'&gt;
-   &lt;/figure&gt;
-   &lt;div class="loop__content clearfix"&gt;
-      &lt;strong&gt;{{ .Get "name" }}&lt;/strong&gt; - {{ .Get "desc" }}
-   &lt;/div&gt;
-&lt;/article&gt;
+```html
+<article class="loop__item post clearfix">
+   <figure class="loop__thumbnail">
+      <img src='{{ .Get "img" }}'>
+   </figure>
+   <div class="loop__content clearfix">
+      <strong>{{ .Get "name" }}</strong> - {{ .Get "desc" }}
+   </div>
+</article>
 
 ```
 
@@ -138,14 +138,14 @@ This allows me to do some variable replacement as I can pass in name, img and de
 ```html
 {{< elder name="Sean Whalley"
   img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
-  desc="Sean has been part of the group since the 2nd meetup. He has helped organize ...
+  desc="Sean has been part of the group since the 2nd meetup. He has helped organize ..."
 }}
 
 ```
 
 First run was a disaster. After starting up the site after first use I was greeted with the error
 
-`unable to locate template for shortcode "elder" in page "about.md"`​
+`unable to locate template for shortcode "elder" in page "about.md"`
 
 This turned out to be a [bug](https://github.com/gohugoio/hugo/issues/3340) in the version of Hugo I was using. I promptly upgraded Hugo (`brew upgrade`) from `0.20.2`<span style="font-size: 1rem;">​ to&nbsp;</span>`0.22.1`<span style="font-size: 1rem;">​ and like any upgrade in an early release, I was expecting the worse. Breaking changes etc. But the upgrade was clean and easy. I repointed forestry to use the newer version of Hugo in their configuration menu and everything just worked.</span>
 
