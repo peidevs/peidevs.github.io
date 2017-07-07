@@ -24,9 +24,7 @@ Jekyll runs off Ruby, so the first battle with using Jekyll was getting Ruby ins
 
 ```
 brew install rbenv
-
 rbenv install 2.3.0
-
 rbenv init
 
 ```
@@ -49,11 +47,27 @@ If you want to run the site locally, feel free to pull the code down yourself an
 
 ### Stage 2 - Pivoting to Hugo
 
-After a bit of time away from the development of the site I decided to learn something new and try out Hugo to see if there was anything I was missing
+After a bit of time away from the development of the site I decided to learn something new and try out Hugo to see if there was anything I was missing. In April 2017 we started with Hugo. Using the [quickstart guide](https://gohugo.io/overview/quickstart/) for Hugo I had a site, with theme setup in 10 minutes. 8 of which was spent looking through [themes](https://themes.gohugo.io/), the other 2 watching the quickstart video.
+
+```
+brew install hugo
+hugo new site peiDevs
+
+```
+
+I downloaded a theme ([mainroad](https://themes.gohugo.io/mainroad/)) and plunked it in the /themes/ folder, updated the Hugo config (`theme = "mainroad"`)  to point to the new theme and voila the site was up and running.
+
+I chose mainroad as it was simple and had all of the components on the screen I was looking for. What I like about the way Hugo is setup is that we can pickup, throw away the old theme and grab another if we don't like the look without losing any content. The separation of content and theme is wonderfully done.
 
 ### Stage 3 - Hello Forestry
 
-Loading in Forestry, oops I shared the same branch, migrating content.
+Now that the site was up and running I set out to complete the task of consolidating all of our links, old blogs and photos into the new site. This is where forestry came in handy. I was able to copy and paste old blogs into the posts section of forestry without having to worry about losing any formatting. The entire process took about two hours and the only thing I had to manually re-create were tweets. The copy process copied the text instead of the link to the tweet. This is expected and if I wanted more I could have looked at a migration tool. Instead I did this manually one night while watching T.V.
+
+While editing posts I had access to both a wysiwyg editor for the raw copy/paste operations and when I needed more power the raw markdown was available to me.
+
+When the migration was completed, the next step was to setup some of our boilerplate pages. Our [About](http://peidevs.github.io/about/) and [Code of Conduct](http://peidevs.github.io/code/) Pages were up next. Again the editors came in handy for these pages. We were able to delegate the tasks of getting this content written and it all came together pretty quickly. Members of the elder group stepped up to proofread documents and write their Bios. Some came in via Slack and others via Pull Requests and I was able to quickly pull these into the codebase via Forestry.
+
+Forestry allowed me to create our navigation menus and manage their order and content easily.
 
 ### Stage 4 - Branching and Deploy Strategy
 
