@@ -131,7 +131,7 @@ So I created a file called `elder.html` with the following content.
 This allows me to do some variable replacement as I can pass in name, img and desc to generate the markup for the page. My about.md file was then able to remove a lot of duplication. Instead of having all the html in the markdown file, I could simply call the shortcode
 
 ```html
-{{<elder name="Sean Whalley"
+{{ &lt; elder name="Sean Whalley"
   img="https://secure.meetupstatic.com/photos/member/c/7/e/4/member_159531172.jpeg"
   desc="Sean has been part of the group since the 2nd meetup. He has helped organize ..."
 }}
