@@ -48,36 +48,6 @@ The elders are those who are willing to help organize the events. Anyone is welc
 
 {{% elderList %}}
 
-{{% elder
-name="Evan Porter"
-img="https://secure.meetupstatic.com/photos/member/d/8/6/0/member_163435392.jpeg"
-desc="Evan Porter has been working in the IT field for over a decade. He has extensive experience using Java and JavaScript professionally and likes Python and Clojure for fun. Attending PEI Devs since December 2012, he became an Elder in March 2016. Evan feels old and hates writing in third person. Only Bob Dole should refer to himself in the third person."
-%}}
-
-{{% elder
-name="Matt Duffy"
-img="https://secure.meetupstatic.com/photos/member/2/5/8/2/member_162429602.jpeg"
-desc="An avid sports fan, Matt spends most of his free time running in marathons and playing on his block's cricket team. You will find Matt in his down time using the PEI Devs slack channel as his personal Rubber Duck."
-%}}
-
-{{% elder
-name="Michael Berger"
-img="/uploads/2017/06/29/meatbanff.jpg"
-desc="Michael is a full stack developer that hates talking about himself. As the picture suggests, he likes a wide range of activities, most unrelated to software development. Michael has been a long time lurker, short time elder."
-%}}
-
-{{% elder
-name="Michael Gauthier"
-img="https://secure.meetupstatic.com/photos/member/1/0/9/9/member_246964249.jpeg"
-desc="Mike has been a professional developer at silverorange since 2002 and hasn't gotten tired of it yet. Anything web or mobile is sure to interest Mike. He began assisting the group in 2016. ⚔"
-%}}
-
-{{% elder
-name="Nolan Phillips"
-img="https://secure.meetupstatic.com/photos/member/8/2/8/5/member_263913413.jpeg"
-desc="My name is Nolan and I like to pary."
-%}}
-
 ### Elders on Sabbatical (semi-retired)
 
 Our semi-retired elders still participate and continue to wear the elder hat. But not currently active in organizing. Our semi-retired elders are acting in an adviser role as needed.
