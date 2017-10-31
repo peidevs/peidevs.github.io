@@ -1,14 +1,9 @@
 ---
 hide_body: false
 fields:
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
+- name: title
+  label: Title
+  type: text
   hidden: false
   default: ''
 - name: description
@@ -16,23 +11,30 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: true
+  default: ''
 - name: tags
   label: Tags
   type: tag_list
-  hidden: false
+  hidden: true
   default: ''
 - name: thumbnail
   label: Thumbnail
   type: text
   hidden: false
   default: ''
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
 - name: type
   label: Type
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: page
+  config:
+    required: true
