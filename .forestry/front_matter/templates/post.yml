@@ -1,20 +1,6 @@
 ---
 pages:
 - post/test.md
-- post/what-exactly-is-a-hackathon-i-m-nervous-md
-- post/thanks-md
-- post/ramping-up-some-faqs-md
-- post/pei-developers-winter-hackathon-2015-md
-- post/our-mission-md
-- post/open-data-recap-md
-- post/new-pei-devs-website-md
-- post/march-meetup-arduino-md
-- post/lobster-rescues-garbage-and-more-at-pei-hacks-md
-- post/guest-blogger-md
-- post/ckancon-2015-md
-- post/automating-slack-invites-md
-- post/april-meetup-2015-md
-- post/2017-q1-elder-meeting-notes-md
 hide_body: false
 fields:
 - name: title
