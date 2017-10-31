@@ -1,7 +1,4 @@
 ---
-pages:
-- about.md
-- code.md
 hide_body: false
 fields:
 - name: title
@@ -16,28 +13,21 @@ fields:
   default: ''
 - name: date
   label: Date
-  type: datetime
+  type: text
   hidden: false
   default: ''
 - name: categories
   label: Categories
   type: tag_list
-  hidden: true
-  default: ''
+  hidden: false
+  default: []
 - name: tags
   label: Tags
   type: tag_list
-  hidden: true
-  default: ''
+  hidden: false
+  default: []
 - name: thumbnail
   label: Thumbnail
   type: text
   hidden: false
   default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: true
-  default: page
-  config:
-    required: true
