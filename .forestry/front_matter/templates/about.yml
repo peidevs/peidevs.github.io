@@ -40,3 +40,25 @@ fields:
   default: page
   config:
     required: true
+- type: field_group_list
+  name: elders
+  label: Elders
+  fields:
+  - type: text
+    name: name
+    label: Name
+    config:
+      required: true
+  - type: text
+    label: Image URL
+    name: img
+    config:
+      required: true
+    default: https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif
+  - type: textarea
+    name: desc
+    label: Bio
+    description: A quick bio describing the elder
+    config:
+      required: true
+      wysiwyg: true
