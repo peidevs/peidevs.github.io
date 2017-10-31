@@ -1,6 +1,6 @@
 ---
 pages:
-- code.md
+- about.md
 hide_body: false
 fields:
 - name: title
