@@ -10,6 +10,11 @@ fields:
   default: ''
   config:
     required: true
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
 - name: date
   label: Date
   type: datetime
@@ -20,20 +25,15 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: description
-  label: Description
-  type: text
-  hidden: false
-  default: ''
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: []
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
+  default: []
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: true
   default: []
 - name: type
   label: Type
