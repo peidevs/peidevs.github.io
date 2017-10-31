@@ -62,3 +62,45 @@ fields:
     config:
       required: true
       wysiwyg: true
+- type: field_group_list
+  name: elders_sabbatical
+  label: Elders on Sabbatical
+  fields:
+  - type: text
+    name: name
+    label: Name
+    config:
+      required: true
+  - type: text
+    name: img
+    label: Image URL
+    config:
+      required: true
+    default: https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif
+  - type: textarea
+    name: desc
+    label: Description
+    config:
+      wysiwyg: true
+      required: true
+- type: field_group_list
+  name: elders_emeritus
+  label: Elders Emeritus
+  fields:
+  - type: text
+    name: name
+    label: Name
+    config:
+      required: true
+  - type: text
+    name: image_url
+    label: Image URL
+    default: https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif
+    config:
+      required: true
+  - type: textarea
+    name: desc
+    label: Description
+    config:
+      wysiwyg: true
+      required: true
