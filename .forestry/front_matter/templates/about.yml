@@ -8,31 +8,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: description
-  label: Description
-  type: text
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: true
-  default: ''
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: true
-  default: ''
-- name: thumbnail
-  label: Thumbnail
-  type: text
-  hidden: false
-  default: ''
 - name: type
   label: Type
   type: text
