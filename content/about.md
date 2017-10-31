@@ -46,6 +46,8 @@ The elders are those who are willing to help organize the events. Anyone is welc
 
 ### Current Elders
 
+{{% elderList %}}
+
 {{% elder
 name="Evan Porter"
 img="https://secure.meetupstatic.com/photos/member/d/8/6/0/member_163435392.jpeg"
