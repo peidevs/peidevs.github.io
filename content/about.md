@@ -8,8 +8,6 @@ title = "About PEI Developers"
 type = "page"
 
 +++
-
-
 ## Who we are
 
 PEI Developers is simply an informal group of software developers, web designers, and other techies.
