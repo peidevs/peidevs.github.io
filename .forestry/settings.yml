@@ -7,4 +7,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections: 
+  posts:
+    default_front_matter_template: post
 version: '0.28'
