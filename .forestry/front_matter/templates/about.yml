@@ -93,7 +93,7 @@ fields:
     config:
       required: true
   - type: text
-    name: image_url
+    name: img
     label: Image URL
     default: https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif
     config:
