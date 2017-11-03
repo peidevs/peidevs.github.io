@@ -1,9 +1,16 @@
 ---
+pages:
+- post/test.md
 hide_body: false
 fields:
-- name: title
-  label: Title
-  type: text
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: []
+- name: date
+  label: Date
+  type: datetime
   hidden: false
   default: ''
 - name: description
@@ -11,16 +18,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: ''
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: []
 - name: tags
   label: Tags
   type: tag_list
@@ -28,6 +25,16 @@ fields:
   default: []
 - name: thumbnail
   label: Thumbnail
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
   type: text
   hidden: false
   default: ''
