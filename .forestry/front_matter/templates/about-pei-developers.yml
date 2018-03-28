@@ -29,3 +29,29 @@ fields:
   - type: textarea
     name: desc
     label: Description
+- type: field_group_list
+  name: elders_sabbatical
+  label: Elders
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    label: Image URL
+    name: img
+  - type: textarea
+    name: desc
+    label: Description
+- type: field_group_list
+  name: elders_emeritus
+  label: Elders
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    label: Image URL
+    name: img
+  - type: textarea
+    name: desc
+    label: Description
