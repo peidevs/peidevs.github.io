@@ -29,9 +29,11 @@ fields:
   - type: textarea
     name: desc
     label: Description
+  config:
+    labelField: name
 - type: field_group_list
   name: elders_sabbatical
-  label: Elders
+  label: Elders on Sabbatical
   fields:
   - type: text
     name: name
@@ -42,9 +44,11 @@ fields:
   - type: textarea
     name: desc
     label: Description
+  config:
+    labelField: name
 - type: field_group_list
   name: elders_emeritus
-  label: Elders
+  label: Elders Emeritus
   fields:
   - type: text
     name: name
@@ -55,3 +59,5 @@ fields:
   - type: textarea
     name: desc
     label: Description
+  config:
+    labelField: name
