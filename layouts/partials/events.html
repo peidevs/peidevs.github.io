@@ -1,0 +1,32 @@
+ {{ range $.Site.Data.events.past_events }}
+<article>
+  <h2>
+    {{ .date }} Meetup </h2>
+  <ul>
+    <li>
+      <strong>Venue: </strong>
+      {{ .venue }}
+    </li>
+    <li>
+      <strong>Cat Herder: </strong> {{ .cat_herder }} </li>
+    <li>
+      <strong>Sponsors: </strong> {{ .sponsors}} </li>
+  </ul>
+  {{ range .talks}}
+  <div>
+    <h4>
+      {{ .topic }}
+    </h4>
+    <ul>
+
+      <li>
+        <strong>Speaker:</strong> {{.speaker}}
+      </li>
+    </ul>
+    <p>
+      {{ if .synopsis }} {{ .synopsis }} {{ end}}
+    </p>
+  </div>
+  {{ end}}
+</article>
+{{ end }}

@@ -1,0 +1,662 @@
+past_events:
+    -
+        date: 'MAR 2018'
+        est: 10
+        venue: 'Startup Zone'
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: 'Unpopular Opinions'
+              synopsis: ""
+        sponsors: 'Forestry, Silver Orange, Binary Star'
+        av_support: ""
+    -
+        date: 'FEB 2018'
+        est: 24
+        venue: 'Startup Zone'
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: 'Michael Gauthier,Bob Shand,Sean MacKay'
+              topic: 'Lightning Talks 1'
+            - speaker: 'Matt Duffy,Chris Macrae,Jordan Patterson'
+              topic: 'Lightning Talks 2'
+        sponsors: 'Forestry, Silver Orange, Binary Star'
+        av_support: ""
+    -
+        date: 'JAN 2018'
+        est: 24
+        venue: 'Startup Zone'
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: 'James O''Halloran'
+              topic: 'Miner Meltdown'
+            - speaker: 'Sean Whalley'
+              topic: Hugo
+        sponsors: 'Forestry, Silver Orange, Binary Star'
+        av_support: ""
+    -
+        date: 'NOV 2017'
+        est: 30
+        venue: 'Startup Zone'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Dustin Sparks, Jordan Patterson, Michael Gauthier, Ian Morse, Patrick Charles, Wendy MacIntyre'
+              topic: 'Hiring and Recruitment Panel'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Forestry, Silver Orange, Binary Star'
+        av_support: ""
+    -
+        date: 'OCT 2017'
+        est: 19
+        venue: 'Startup Zone'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Chris Macrae'
+              topic: 'The Modern Website'
+            - speaker: 'Jordan Patterson'
+              topic: 'Showing Us Some Stuff in Docker'
+        sponsors: 'Forestry, Silver Orange, Binary Star'
+        av_support: ""
+    -
+        date: 'SEP 2017'
+        est: 20
+        venue: 'Startup Zone'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: 'Java 9 Modules'
+            - speaker: 'Sean Whalley'
+              topic: Ergonomics
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'JUN 2017'
+        est: 23
+        venue: 'Startup Zone'
+        cat_herder: 'Michael Gauthier'
+        talks:
+            - speaker: 'Ricardo Angel'
+              topic: 'Raspberry Pi'
+            - speaker: 'Jordan Patterson'
+              topic: 'Docker Compose'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'MAY 2017'
+        est: 26
+        venue: 'Startup Zone'
+        cat_herder: 'Michael Gauthier'
+        talks:
+            - speaker: 'Ron Myers'
+              topic: TypeScript
+            - speaker: 'Matt Duffy'
+              topic: 'Effective Teams'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'APR 2017'
+        est: 20
+        venue: 'Startup Zone'
+        cat_herder: 'Nolan Phillips'
+        talks:
+            - speaker: 'Jordan Patterson'
+              topic: Docker
+            - speaker: 'Evan Porter'
+              topic: Django
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'MAR 2017'
+        est: 27
+        venue: 'Startup Zone'
+        cat_herder: 'Nolan Phillips'
+        talks:
+            - speaker: 'Jim Murphy'
+              topic: AWS
+            - speaker: 'Ross Evans'
+              topic: 'Machine Learning'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'JAN 2017'
+        est: 17
+        venue: 'Startup Zone'
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Suhaib Qaiser'
+              topic: 'Angular JS'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'NOV 2016'
+        est: 25
+        venue: 'Startup Zone'
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Tracy Wood'
+              topic: 'IT Shared Services'
+            - speaker: 'Kody Duncan'
+              topic: 'Web Experience Toolkit'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'OCT 2016'
+        est: 23
+        venue: 'Startup Zone'
+        cat_herder: 'Mike Berger'
+        talks:
+            - speaker: 'Jordan Patterson'
+              topic: 'Intro to AWS w/ EC2 and RDS'
+            - speaker: 'Ifo Ikede'
+              topic: 'CI and Github'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'SEP 2016'
+        est: 28
+        venue: 'Startup Zone'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Sean Whalley'
+              topic: 'Deleting Code for Fun and Profit'
+            - speaker: 'Michael Easter'
+              topic: 'A Random Walk Down Presentation Street'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'AUG 2016'
+        est: 26
+        venue: 'Startup Zone'
+        cat_herder: 'Sean Whalley'
+        talks:
+            - speaker: 'Evan Porter'
+              topic: 'Conferences Recap'
+            - speaker: 'Matt Duffy/Michael Easter'
+              topic: Refactoring
+        sponsors: 'Binary Star,Jetbrains'
+        av_support: ""
+    -
+        date: 'JUN 2016'
+        est: 29
+        venue: 'Startup Zone'
+        cat_herder: 'Sean Whalley'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: 'Pain-Driven Development'
+            - speaker: 'Nolan Phillips'
+              topic: 'JavaScript 2'
+        sponsors: 'Startup Zone,Binary Star,JetBrains'
+        av_support: ""
+    -
+        date: 'MAY 2016'
+        est: 22
+        venue: 'Murphy''s'
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: 'Software Math'
+            - speaker: 'Open Forum'
+              topic: 'Show and Tell'
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'APR 2016'
+        est: 31
+        venue: 'Murphy''s'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Michael Dunleavy'
+              topic: 'Startup Legals 101'
+            - speaker: 'Michael Gauthier'
+              topic: 'Web Security using TLS'
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'Binary Star'
+    -
+        date: 'MAR 2016'
+        est: 29
+        venue: 'Murphy''s'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Jeff Bowser'
+              topic: 'Additive Manufacturing'
+            - speaker: 'Steve Buss'
+              topic: 'SolidWorks 3D Modeling'
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'FEB 2016'
+        est: 43
+        venue: 'Murphy''s'
+        cat_herder: 'Evan Porter'
+        talks:
+            - speaker: 'Nolan Phillips'
+              topic: 'OO the JS Way'
+            - speaker: 'Mike Gauthier'
+              topic: 'Distributed Computing for Web Applications'
+        sponsors: 'BinaryStar,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'JAN 2016'
+        est: 30
+        venue: 'Murphy''s'
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: 'Ross Evans'
+              topic: 'Web application security'
+            - speaker: 'J.B. Rainsberger/Bob Shand'
+              topic: 'Debugging Interactions/Fastlane Tools'
+        sponsors: 'Binary Star'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'DEC 2015'
+        est: 23
+        venue: 'Murphy''s'
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: 'Engineers PEI Robotics Team'
+            - speaker: 'Derek Campbell'
+              topic: Makerspace
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'NOV 2015'
+        est: 7
+        venue: Cineplex
+        cat_herder: 'Matt Duffy'
+        talks:
+            - speaker: Kooperman
+              topic: 'supporting local arts'
+            - speaker: ""
+              topic: ""
+        sponsors: ""
+        av_support: ""
+    -
+        date: 'OCT 2015'
+        est: 22
+        venue: 'Holman Centre'
+        cat_herder: 'Derek Campbell'
+        talks:
+            - speaker: 'Matt Duffy,Evan Porter'
+              topic: Lightning
+            - speaker: 'Christian Southgate, JB Rainsberger'
+              topic: Lightning
+        sponsors: 'Derek Campbell,JB Rainsberger,Collide Conf,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'SEP 2015'
+        est: 38
+        venue: CYC
+        cat_herder: 'Derek Campbell'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: Cryptography
+            - speaker: 'Open Forum'
+              topic: Crypto/Security
+        sponsors: 'Binary Star,JetBrains,ScreenScape'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'AUG 2015'
+        est: 36
+        venue: CYC
+        cat_herder: 'Derek Campbell'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: 'Open Data'
+            - speaker: 'Open Forum'
+              topic: 'Open Data'
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'JUL 2015'
+        est: 17
+        venue: Legion
+        cat_herder: 'Sean Whalley'
+        talks:
+            - speaker: 'Mark Wright'
+              topic: Radium
+            - speaker: 'Kyron Stubbs'
+              topic: Play
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'JUN 2015'
+        est: 33
+        venue: Legion
+        cat_herder: 'Sean Whalley'
+        talks:
+            - speaker: 'Christian Southgate'
+              topic: 'OS Quadcopter'
+            - speaker: 'Nolan Phillips'
+              topic: ReactJS
+        sponsors: 'Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'MAY 2015'
+        est: 18
+        venue: Legion
+        cat_herder: 'Sean Whalley'
+        talks:
+            - speaker: 'Sean Whalley'
+              topic: 'Mob Programming'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Sean Whalley,Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'APR 2015'
+        est: 31
+        venue: Legion
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Derek Campbell'
+              topic: 'Dev Tools'
+            - speaker: 'Ryan Palmer'
+              topic: 'Travis CI'
+        sponsors: 'Michael Easter,Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'MAR 2015'
+        est: 25
+        venue: Legion
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Matt Duffy'
+              topic: Arduino
+            - speaker: ""
+              topic: ""
+        sponsors: 'Michael Easter,Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'FEB 2015'
+        est: 26
+        venue: Legion
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Evan Porter'
+              topic: Clojure
+            - speaker: 'Michael Easter'
+              topic: 'Java 8 Streams'
+        sponsors: 'Michael Easter,Binary Star,JetBrains'
+        av_support: 'ScreenScape Networks'
+    -
+        date: 'OCT 2014'
+        est: 14
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: ""
+              topic: 'Hands-on Code Golf #2'
+            - speaker: ""
+              topic: 'Open Forum'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'SEP 2014'
+        est: 11
+        venue: QSC
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: ""
+              topic: 'Hands-on Code Golf #1'
+            - speaker: ""
+              topic: 'Open Forum'
+        sponsors: 'Michael Easter'
+        av_support: ""
+    -
+        date: 'AUG 2014'
+        est: 8
+        venue: 'Open Hub'
+        cat_herder: 'Steven Baker'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: 'Code Golf'
+            - speaker: 'Derek Campbell'
+              topic: Elixir
+        sponsors: '?'
+        av_support: ""
+    -
+        date: 'JUN 2014'
+        est: 19
+        venue: QSC
+        cat_herder: ""
+        talks:
+            - speaker: 'Ryan Palmer'
+              topic: 'Microcontroller Arduino'
+            - speaker: 'Matt Duffy'
+              topic: 'Hexagonal Architecture'
+        sponsors: '?'
+        av_support: ""
+    -
+        date: 'MAY 2014'
+        est: 16
+        venue: 'Samuel''s Coffee'
+        cat_herder: ""
+        talks:
+            - speaker: '?'
+              topic: 'Agile Related Discussion'
+            - speaker: '?'
+              topic: '?'
+        sponsors: '?'
+        av_support: ""
+    -
+        date: 'APR 2014'
+        est: 15
+        venue: QSC
+        cat_herder: ""
+        talks:
+            - speaker: 'Dustin Sparks'
+              topic: 'Agile Fundamentals'
+            - speaker: 'Steven Baker'
+              topic: 'Agile Fundamentals'
+        sponsors: BinaryStar
+        av_support: ""
+    -
+        date: 'FEB 2014'
+        est: 14
+        venue: 'Samuel''s Coffee'
+        cat_herder: ""
+        talks:
+            - speaker: 'JB Rainsberger'
+              topic: 'TDD,Estimate Algebra'
+            - speaker: '?'
+              topic: '?'
+        sponsors: '?'
+        av_support: ""
+    -
+        date: 'JAN 2014'
+        est: 19
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Bob Shand'
+              topic: Beacons
+            - speaker: 'Sean Whalley'
+              topic: 'CRC Cards'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'NOV 2013'
+        est: 16
+        venue: QSC
+        cat_herder: ""
+        talks:
+            - speaker: 'Sean Whalley'
+              topic: 'Learn a new language'
+            - speaker: 'Derek Campbell,Steven Baker'
+              topic: 'CI,Solid'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'OCT 2013'
+        est: 24
+        venue: QSC
+        cat_herder: ""
+        talks:
+            - speaker: 'Luke Taylor'
+              topic: Vagrant
+            - speaker: 'Maureen Kerr'
+              topic: 'Teaching Kids to Code'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'JUN 2013'
+        est: 12
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Dustin Sparks'
+              topic: 'Working as Independent'
+            - speaker: '?'
+              topic: '?'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'MAY 2013'
+        est: 13
+        venue: QSC
+        cat_herder: 'Michael Easter'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: Gradle
+            - speaker: 'Open Forum'
+              topic: 'Type Systems'
+        sponsors: 'Michael Easter'
+        av_support: ""
+    -
+        date: 'APR 2013'
+        est: 7
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: ""
+              topic: 'Hands-On Code Kata'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'MAR 2013'
+        est: 9
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Dustin Sparks'
+              topic: 'Review GoInstant Hackathon'
+            - speaker: ""
+              topic: 'Hands-on Code Kata'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'FEB 2013'
+        est: 12
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: ""
+              topic: 'Hands-on Code Kata'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'JAN 2013'
+        est: 11
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: 'Code Kata'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'DEC 2012'
+        est: 11
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Dustin Sparks'
+              topic: 'Mini Code Retreat'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'NOV 2012'
+        est: 9
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Chris Lee'
+              topic: DevOps
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'OCT 2012'
+        est: 11
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Gordie Noye'
+              topic: Node.js
+            - speaker: 'William McMaster'
+              topic: 'PS3 Cluster'
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'SEP 2012'
+        est: 7
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: ""
+              topic: ""
+            - speaker: 'Open Forum'
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    - 
+        date: 'JUL 2012'
+        est: 12
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Bob Shand'
+              topic: 'Open Street Map'
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'MAY 2012'
+        est: 15
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: 'Michael Easter'
+              topic: Groovy
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    -
+        date: 'APR 2012'
+        est: 17
+        venue: QSC
+        cat_herder: 'Dustin Sparks'
+        talks:
+            - speaker: ""
+              topic: ""
+            - speaker: ""
+              topic: ""
+        sponsors: 'Binary Star'
+        av_support: ""
+    
+    
