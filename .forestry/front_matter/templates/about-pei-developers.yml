@@ -6,31 +6,26 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: description
-  label: Description
-  type: text
-  hidden: false
-  default: ''
-- type: file
-  name: thumbnail
-  label: Thumbnail
 - name: date
   label: Date
   type: datetime
-  hidden: false
-  default: ''
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: ''
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: false
+  hidden: true
   default: ''
 - name: type
   label: Type
   type: text
   hidden: true
-  default: ''
+  default: pages
+- type: field_group_list
+  name: elders
+  label: Elders
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    label: Image URL
+    name: img
+  - type: textarea
+    name: desc
+    label: Description
