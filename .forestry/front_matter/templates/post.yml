@@ -1,4 +1,6 @@
 ---
+pages:
+- post/ramping-up-some-faqs.md
 hide_body: false
 fields:
 - name: title
@@ -34,5 +36,5 @@ fields:
 - name: type
   label: Type
   type: text
-  hidden: true 
-  default: 'post'
+  hidden: true
+  default: post
