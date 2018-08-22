@@ -106,7 +106,13 @@ The growth of the group has been recognized in many different areas. There have 
 
 ## Sponsors
 
-Though [several sponsors](https://github.com/peidevs/Event_Resources/blob/master/MeetUps.csv) have contributed in some capacity over the years, our primary sponsor is [Binary Star](http://www.binarystar.biz/). Thanks!
+Our main sponsors are currently:
+
+* [Forestry](https://forestry.io)
+* [Silver Orange](https://www.silverorange.com/)
+* [Binary Star](http://www.binarystar.biz/)
+
+We thank them for their generous support! Without them, we wouldn't have a home for our meetups.
 
 ## Elders
 
