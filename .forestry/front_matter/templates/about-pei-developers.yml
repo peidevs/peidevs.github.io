@@ -1,7 +1,7 @@
 ---
-pages:
-- about.md
+label: about-pei-developers
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -63,3 +63,5 @@ fields:
     label: Description
   config:
     labelField: name
+pages:
+- content/about.md

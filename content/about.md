@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2017-05-10 20:44:27 -0300
+date: 2017-05-10 23:44:27 +0000
 description: ''
 tags: []
 thumbnail: ''
@@ -116,7 +116,7 @@ We thank them for their generous support! Without them, we wouldn't have a home 
 
 ## Elders
 
-The elders are those who are willing to help organize the events. Anyone is welcome to be an elder. All you have to do is ask.
+The elders are those who are willing to help organize the events. Anyone is welcome to be an elder, all you have to do is ask.
 
 ### Current Elders
 
