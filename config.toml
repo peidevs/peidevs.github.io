@@ -39,11 +39,11 @@ url = "https://docs.google.com/forms/d/1hNruzn7fb8Wu7BbuGVvgbeO0-HTNnDrcCJAQ24wZ
 weight = 3
 [[menu.side]]
 name = "People's Scooter"
-url = "http://peidevs.github.io/Scooter"
+url = "https://peidevs.github.io/Event_Resources/"
 weight = 2
 [[menu.side]]
 name = "Scooter"
-url = "https://peidevs.github.io/Event_Resources/"
+url = "http://peidevs.github.io/Scooter"
 weight = 1
 [[menu.side]]
 name = "Ladies Learning Code"
