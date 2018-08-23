@@ -63,5 +63,3 @@ fields:
     label: Description
   config:
     labelField: name
-pages:
-- content/about.md

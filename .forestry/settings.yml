@@ -5,14 +5,19 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/post
-  label: Post
+  label: Blog Posts
   create: all
+  match: "**/*"
+  templates:
+  - post
+- type: document
+  path: content/about.md
+  label: About
+  match: "**/*"
+- type: document
+  path: content/code.md
+  label: Code of Conduct
   match: "**/*"
 upload_dir: static/uploads
 public_path: "{{ site.baseurl }}/uploads"
