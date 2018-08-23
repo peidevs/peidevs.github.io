@@ -12,3 +12,5 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- content/code.md

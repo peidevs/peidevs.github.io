@@ -6,8 +6,8 @@ tags = []
 thumbnail = ""
 title = "Code of Conduct"
 type = "page"
-+++
 
++++
 All attendees, speakers, sponsors and volunteers at our meetup and in our Slack Channel are required to agree with the following code of conduct. Organizers (the elder group, cat-herders and event runners) will enforce this code throughout the events we hold, and in our online forums such as our Slack channel. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
 
 ## Need Help?
