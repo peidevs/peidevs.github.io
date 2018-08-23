@@ -14,11 +14,9 @@ sections:
 - type: document
   path: content/about.md
   label: About
-  match: "**/*"
 - type: document
   path: content/code.md
   label: Code of Conduct
-  match: "**/*"
 upload_dir: static/uploads
 public_path: "{{ site.baseurl }}/uploads"
 front_matter_path: "/uploads"
