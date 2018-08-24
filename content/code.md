@@ -15,28 +15,27 @@ All attendees, speakers, sponsors and volunteers at our meetup and in our Slack 
 Contact a member of the Elders, or the cat-herder/organizer of the event.
 
 * [Current Elders](/about/#current-elders)
-
 * In Slack, Elders can be identified by the Motar Board Hat icons
 
 ## Purpose
 
-We want to provide a forum for technically inclined people to gather, learn and discuss various topics of interest to them. We want people to feel safe and not have to be worried about being insulted, belittled or have their feelings dismissed as irrelevant.
+We want to provide a forum for technically inclined people to gather, learn and discuss various topics of interest to them. We want people to feel safe and not worry about being insulted, belittled or have their feelings dismissed as irrelevant.
 
 We also realize that most people do not intend to insult, belittle or dismiss someone's feelings as irrelevant. So when we bring up that a certain behaviour is making another member feel unwelcome, we expect the offender to stop said behaviour.
 
 ## The Quick Version
 
-Our community is dedicated to providing a harassment-free conference experience for everyone. We do not tolerate harassment of our participants in any form including sexual language and imagery. If the elders or cat-herder/organizer feels that you've violated the rules, we'll kick you out.
+Our community is dedicated to providing a harassment-free conference experience for everyone. We won't tolerate harassment of our participants in any form including sexual language and imagery. If the elders or cat-herder/organizer feels that you've violated the rules, we'll kick you out.
 
 ## The Less Quick Version
 
 Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+Participants asked to stop any harassing behaviour are expected to comply immediately.
 
 Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-If a participant engages in harassing behavior, the PEI Devs elders may take any action they deem appropriate, including warning the offender or expulsion from the meetup/event or online forum with no refund.
+If a participant engages in harassing behaviour, the PEI Devs elders may take any action they deem appropriate, including warning the offender or expulsion from the meetup/event or online forum with no refund.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a PEI Dev Elder immediately. Elders can be identified with a grad cap in Slack and can be pointed to by the Cat-herder / event organizer.
 
@@ -53,13 +52,9 @@ We expect participants to follow these rules at all PEI Devs meetups, events, an
 Here are the steps to report violations of our code of conduct:
 
 * Find the cat-herder, organizer, or a member of the Elders group
-
 * Describe the incident as best you can
-
 * The cat-herder, organizer or member of the Elder council will approach the offender and inform them of the behaviour and ask them to stop
-
 * If the offender refuses to stop the behaviour or repeats it, they will be expelled immediately
-
 * If the behaviour is judged too threatening, the offender may be expelled immediately at the discretion of the cat-herder/organizer or elder. Examples include but are not limited to: cat-calling or other aggressive behaviour
 
 ## Reminder
