@@ -9,3 +9,6 @@ fields:
 - type: text
   name: img
   label: Image
+- type: textarea
+  name: desc
+  label: Description
