@@ -22,15 +22,10 @@ fields:
   name: elders
   label: Elders
   fields:
-  - type: text
-    name: name
-    label: Name
-  - type: text
-    label: Image URL
-    name: img
-  - type: textarea
-    name: desc
-    label: Description
+  - type: include
+    name: elder_fields
+    label: Elder Fields
+    template: elder
   config:
     labelField: name
 - type: field_group_list
