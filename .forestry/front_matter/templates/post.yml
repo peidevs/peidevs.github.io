@@ -39,6 +39,7 @@ fields:
   hidden: true
   default: post
 pages:
+- content/post/year-in-review.md
 - content/post/lobster-rescues-garbage-and-more-at-pei-hacks.md
 - content/post/automating-slack-invites.md
 - content/post/ckancon-2015.md
