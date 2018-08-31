@@ -6,10 +6,21 @@
     <description>Recent content on PEI Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jul 2017 13:36:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 00:17:02 +0000</lastBuildDate>
     
 	<atom:link href="//peidevs.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Year In Review</title>
+      <link>//peidevs.github.io/post/year-in-review/</link>
+      <pubDate>Wed, 29 Aug 2018 00:17:02 +0000</pubDate>
+      
+      <guid>//peidevs.github.io/post/year-in-review/</guid>
+      <description>Time for the year-in-review post! I figured August 2017 to August 2018 is arbitrary enough for such things.
+This past year was the first one where PEI Devs had three consistent major sponsors. In addition to our first and fiercest supporter, Binary Star, both Forestry and Silver Orange stepped up and helped us. Without the three of them, our meetups this year wouldn&amp;rsquo;t have happened.
+We&amp;rsquo;ve had 11 regular speakers, and they&amp;rsquo;ve presented on topics ranging from picking up satellite signals, static site generation, EU privacy regulation and Augmented/Virtual Reality.</description>
+    </item>
     
     <item>
       <title>New PEI Devs Website</title>
