@@ -2,7 +2,6 @@
 categories = []
 date = "2018-08-29T00:17:02+00:00"
 description = ""
-draft = true
 tags = []
 thumbnail = ""
 title = "Year In Review"
