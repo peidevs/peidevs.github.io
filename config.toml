@@ -43,7 +43,7 @@ url = "https://docs.google.com/forms/d/1hNruzn7fb8Wu7BbuGVvgbeO0-HTNnDrcCJAQ24wZ
 weight = 3
 [[menu.side]]
 name = "Event History"
-url = "https://github.com/peidevs/Event_Resources/blob/master/MeetUps.csv"
+url = "https://github.com/peidevs/Event_Resources/blob/master/MeetUps_v2.csv"
 weight = 4
 [[menu.side]]
 name = "Open Data Book Club"
