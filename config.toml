@@ -26,6 +26,10 @@ name = "Github"
 url = "https://www.github.com/peidevs"
 weight = 5
 [[menu.side]]
+name = "Extra Links"
+url = "https://github.com/peidevs/Resources/blob/master/Links.md"
+weight = 7
+[[menu.side]]
 name = "Canada Learning Code"
 url = "https://www.canadalearningcode.ca/chapters/charlottetown/"
 weight = 6
