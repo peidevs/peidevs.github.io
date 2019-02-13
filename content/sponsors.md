@@ -6,9 +6,10 @@ tags = []
 thumbnail = ""
 title = "Sponsors"
 type = "page"
+[menu.main]
+weight = 6
 
 +++
-
 # 2019
 
 These generous sponsors have graciously contributed to our stay at the StartUp Zone for 2019:
