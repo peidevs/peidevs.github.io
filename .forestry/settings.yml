@@ -17,6 +17,10 @@ sections:
 - type: document
   path: content/code.md
   label: Code of Conduct
+- type: document
+  path: content/sponsors.md
+  label: Sponsors
+  match: "**/*"
 - type: directory
   path: data
   label: Data
