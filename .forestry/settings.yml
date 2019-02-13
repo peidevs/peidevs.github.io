@@ -17,9 +17,25 @@ sections:
 - type: document
   path: content/code.md
   label: Code of Conduct
+- type: directory
+  path: data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml,toml}"
 upload_dir: static/uploads
 public_path: "{{ site.baseurl }}/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
+  publish_command: hugo -d public
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.28
+  publish_env:
+  - HUGO_ENV=production
+  - HUGO_VERSION=0.28
+  preview_output_directory: public
+  output_directory: public
 version: '0.28'
