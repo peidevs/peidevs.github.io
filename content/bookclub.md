@@ -18,8 +18,12 @@ books:
   authors:
   - Gerald M. Weinberg
 - title: Worry
-  authors: 
+  authors:
+  - "?"
 - title: Crucial Conversations
+  authors:
+  - Kerry Patterson
+  - Joseph Grenny
 - title: Just Listen
   authors:
   - Kerry Patterson
