@@ -7,3 +7,6 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: list
+  name: authors
+  label: Authors
