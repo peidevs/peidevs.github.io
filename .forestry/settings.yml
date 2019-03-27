@@ -18,6 +18,10 @@ sections:
   path: content/code.md
   label: Code of Conduct
 - type: document
+  path: content/bookclub.md
+  label: Bookclub
+  match: "**/*"
+- type: document
   path: content/sponsors.md
   label: Sponsors
 - type: directory
