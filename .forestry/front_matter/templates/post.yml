@@ -1,7 +1,6 @@
 ---
 label: post
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -39,19 +38,19 @@ fields:
   hidden: true
   default: post
 pages:
-- content/post/pei-developers-winter-hackathon-2015.md
-- content/post/march-meetup-arduino.md
-- content/post/thanks.md
-- content/post/open-data-recap.md
-- content/post/new-pei-devs-website.md
-- content/post/ramping-up-some-faqs.md
-- content/post/guest-blogger.md
-- content/post/april-meetup-2015.md
-- content/post/ckancon-2015.md
-- content/post/automating-slack-invites.md
-- content/post/lobster-rescues-garbage-and-more-at-pei-hacks.md
-- content/post/2017-q1-elder-meeting-notes.md
-- content/post/test.md
-- content/post/our-mission.md
-- content/post/year-in-review.md
 - content/post/what-exactly-is-a-hackathon-i-m-nervous.md
+- content/post/year-in-review.md
+- content/post/our-mission.md
+- content/post/test.md
+- content/post/2017-q1-elder-meeting-notes.md
+- content/post/lobster-rescues-garbage-and-more-at-pei-hacks.md
+- content/post/automating-slack-invites.md
+- content/post/ckancon-2015.md
+- content/post/april-meetup-2015.md
+- content/post/guest-blogger.md
+- content/post/ramping-up-some-faqs.md
+- content/post/new-pei-devs-website.md
+- content/post/open-data-recap.md
+- content/post/thanks.md
+- content/post/march-meetup-arduino.md
+- content/post/pei-developers-winter-hackathon-2015.md
