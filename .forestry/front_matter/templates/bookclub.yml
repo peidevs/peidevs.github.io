@@ -1,9 +1,18 @@
 ---
 label: Bookclub
 hide_body: true
+display_field: title
 fields:
 - name: title
   label: Title
   type: text
+- type: field_group_list
+  name: books
+  label: Books
+  fields:
+  - type: include
+    name: book
+    label: Book
+    template: book
 pages:
 - content/bookclub.md
