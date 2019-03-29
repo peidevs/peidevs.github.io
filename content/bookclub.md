@@ -1,6 +1,9 @@
 ---
 title: Bookclub
 books:
+- title: Thinking Fast and Slow
+  authors:
+  - Daniel Kahneman
 - title: Deadline
   authors:
   - Tom DeMarco
@@ -76,9 +79,6 @@ books:
   authors:
   - Robert B. Miller
   - Stephen E. Heiman
-- title: Thinking Fast and Slow
-  authors:
-  - Daniel Kahneman
 menu:
   main: {}
 
