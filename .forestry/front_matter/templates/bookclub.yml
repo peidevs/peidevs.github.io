@@ -1,0 +1,23 @@
+---
+label: Bookclub
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+- type: field_group_list
+  name: books
+  label: Books
+  fields:
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - type: list
+    name: authors
+    label: Authors
+    config:
+      min: '1'
+pages:
+- content/bookclub.md

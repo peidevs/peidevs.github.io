@@ -18,6 +18,9 @@ sections:
   path: content/code.md
   label: Code of Conduct
 - type: document
+  path: content/bookclub.md
+  label: Bookclub
+- type: document
   path: content/sponsors.md
   label: Sponsors
 - type: directory

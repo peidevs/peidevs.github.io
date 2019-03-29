@@ -1,0 +1,5 @@
+<ul>
+  {{ range $.Page.Params.books }}
+  {{ partial "book" . }}
+  {{ end }}
+</ul>
