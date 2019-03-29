@@ -93,6 +93,10 @@
   </url>
   
   <url>
+    <loc>//peidevs.github.io/bookclub/</loc>
+  </url>
+  
+  <url>
     <loc>//peidevs.github.io/categories/</loc>
     <priority>0</priority>
   </url>
