@@ -130,6 +130,6 @@ Our semi-retired elders still participate and continue to wear the elder hat. Bu
 
 ### Elders Emeritus (retired)
 
-These folks put in a lot of effort to make the group what it is today. Because of other obligations in life they are no longer able to help in the role of cathearder anymore.
+These folks put in a lot of effort to make the group what it is today. Because of other obligations in life they are no longer able to help in the role of cat-herder anymore.
 
 {{% elders_emeritus %}}
