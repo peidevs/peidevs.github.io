@@ -1,6 +1,6 @@
 ---
 categories: []
-date: 2017-05-10 23:44:27 +0000
+date: 2017-05-10T23:44:27.000+00:00
 description: ''
 tags: []
 thumbnail: ''
@@ -64,7 +64,7 @@ elders_emeritus:
     and helped run many of our most successful events. Much of the growth of the group
     can be attributed to Bob's work with Hackathons. Bob left the elder group after
     an employment change. You will now find Bob hosting Security B-Side conferences.
-- name: Ryan Palmerk
+- name: Ryan Palmer
   img: https://secure.meetupstatic.com/s/img/2982428616572973604/noPhoto_80.gif
   desc: Original Member of the group. Ryan taught the group early about tinkering
     with gadgets and Continuous Integration. Ryan was always a positive influence
