@@ -80,7 +80,8 @@ books:
   - Robert B. Miller
   - Stephen E. Heiman
 menu:
-  main: {}
+  main:
+    weight: 1
 
 ---
 {{% books %}}

@@ -8,51 +8,43 @@ title = "PEI Developers"
 [[menu.main]]
 name = "About"
 url = "/about/"
-weight = 1
+weight = 2
 [[menu.main]]
 name = "Code of Conduct"
 url = "/code/"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "Meetup"
 url = "https://www.meetup.com/pei-developers"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Twitter"
 url = "https://www.twitter.com/peidevs"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Github"
 url = "https://www.github.com/peidevs"
-weight = 5
+weight = 6
 [[menu.side]]
 name = "Extra Links"
 url = "https://github.com/peidevs/Resources/blob/master/Links.md"
-weight = 7
+weight = 5
 [[menu.side]]
-name = "Canada Learning Code"
-url = "https://www.canadalearningcode.ca/chapters/charlottetown/"
-weight = 6
-[[menu.side]]
-name = "Scooter"
-url = "http://peidevs.github.io/Scooter"
-weight = 1
-[[menu.side]]
-name = "People's Scooter"
-url = "https://peidevs.github.io/Event_Resources/"
+name = "MeetUp Group"
+url = "https://www.meetup.com/pei-developers/"
 weight = 2
 [[menu.side]]
 name = "Request Slack Invite"
 url = "https://docs.google.com/forms/d/1hNruzn7fb8Wu7BbuGVvgbeO0-HTNnDrcCJAQ24wZTBs/viewform"
-weight = 3
+weight = 1
+[[menu.side]]
+name = "Canada Learning Code"
+url = "https://www.canadalearningcode.ca/chapters/charlottetown/"
+weight = 4
 [[menu.side]]
 name = "Event History"
 url = "https://github.com/peidevs/Event_Resources/blob/master/MeetUps_v2.csv"
-weight = 4
-[[menu.side]]
-name = "Open Data Book Club"
-url = "http://peidevs.github.io/OpenDataBookClub/"
-weight = 5
+weight = 3
 [params]
 authorbox = false
 description = "Home of the PEI Developers Group."

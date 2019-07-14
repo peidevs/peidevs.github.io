@@ -7,7 +7,7 @@ thumbnail = ""
 title = "Sponsors"
 type = "page"
 [menu.main]
-weight = 6
+weight = 7
 
 +++
 # 2019
