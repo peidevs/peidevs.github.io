@@ -1,8 +1,9 @@
 ---
 title: Bookclub
-date: "2019-03-27T20:44:00-03:00"
-description: "List of books read by the Bookclub"
 books:
+- title: Dare to Lead
+  authors:
+  - Brené Brown
 - title: Thinking Fast and Slow
   authors:
   - Daniel Kahneman
@@ -81,6 +82,8 @@ books:
   authors:
   - Robert B. Miller
   - Stephen E. Heiman
+date: '2019-03-27T20:44:00-03:00'
+description: List of books read by the Bookclub
 menu:
   main:
     weight: 7
