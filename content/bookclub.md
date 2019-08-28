@@ -1,7 +1,7 @@
 ---
 title: Bookclub
-date = "2019-03-27T20:44:00-03:00"
-description = "List of books read by the Bookclub"
+date: "2019-03-27T20:44:00-03:00"
+description: "List of books read by the Bookclub"
 books:
 - title: Thinking Fast and Slow
   authors:
