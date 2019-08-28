@@ -81,7 +81,7 @@ books:
   - Stephen E. Heiman
 menu:
   main:
-    weight: 1
+    weight: 7
 
 ---
 {{% books %}}
