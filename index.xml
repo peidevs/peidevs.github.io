@@ -6,10 +6,19 @@
     <description>Recent content on PEI Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:17:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2019 20:44:00 -0300</lastBuildDate>
     
 	<atom:link href="//peidevs.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bookclub</title>
+      <link>//peidevs.github.io/bookclub/</link>
+      <pubDate>Wed, 27 Mar 2019 20:44:00 -0300</pubDate>
+      
+      <guid>//peidevs.github.io/bookclub/</guid>
+      <description>Dare to Lead by Brené Brown    Thinking Fast and Slow by Daniel Kahneman    Deadline by Tom DeMarco    Slack by Tom DeMarco    Peopleware by Tom DeMarco and Tim Lister    The Five Dysfunctions of a Team by Patrick Lencioni    Secrets of Consulting by Gerald M. Weinberg    Worry: Hope and Help for a Common Condition by EDWARD M.</description>
+    </item>
     
     <item>
       <title>Year In Review</title>
@@ -208,15 +217,6 @@ The weekend started off with a social night pulled together by Ryan Palmer and h
 Over the next few days, we’ll describe the efforts and the day, but for now we want to thank so many people / sponsors.
 You
 Thanks again to everyone who came out. We had about 30 participants, some of whom traveled from Halifax and Fredericton, and all of whom came inside to play on a gorgeous Saturday.</description>
-    </item>
-    
-    <item>
-      <title>Bookclub</title>
-      <link>//peidevs.github.io/bookclub/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//peidevs.github.io/bookclub/</guid>
-      <description>Thinking Fast and Slow by Daniel Kahneman    Deadline by Tom DeMarco    Slack by Tom DeMarco    Peopleware by Tom DeMarco and Tim Lister    The Five Dysfunctions of a Team by Patrick Lencioni    Secrets of Consulting by Gerald M. Weinberg    Worry: Hope and Help for a Common Condition by EDWARD M. HALLOWELL, M.</description>
     </item>
     
   </channel>

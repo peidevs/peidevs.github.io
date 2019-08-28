@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//peidevs.github.io/bookclub/</loc>
+    <lastmod>2019-03-27T20:44:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//peidevs.github.io/post/year-in-review/</loc>
     <lastmod>2018-08-29T00:17:02+00:00</lastmod>
   </url>
@@ -93,17 +98,13 @@
   </url>
   
   <url>
-    <loc>//peidevs.github.io/bookclub/</loc>
-  </url>
-  
-  <url>
     <loc>//peidevs.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//peidevs.github.io/</loc>
-    <lastmod>2018-08-29T00:17:02+00:00</lastmod>
+    <lastmod>2019-03-27T20:44:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
