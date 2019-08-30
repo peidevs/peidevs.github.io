@@ -10,7 +10,7 @@ After installing Hugo, cloning the repository, and switching to a branch based o
 
 1. `git submodule init`
 2. `git submodule update`
-3. `hugo server`
+3. `bin/hugo server`
 4. Go to localhost:1313
 
 Now you're ready to browse PEI Dev's website locally. Any changes to source files will cause a rebuild with autoreload.
