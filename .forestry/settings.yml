@@ -33,11 +33,11 @@ public_path: "{{ site.baseurl }}/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
-instant_preview: true
+instant_preview: false
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.28
+  - HUGO_VERSION=0.55
   preview_output_directory: public
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
