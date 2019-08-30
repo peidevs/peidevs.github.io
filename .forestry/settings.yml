@@ -33,7 +33,7 @@ public_path: "{{ site.baseurl }}/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
-instant_preview: 
+instant_preview: true
 build:
   preview_env:
   - HUGO_ENV=staging
