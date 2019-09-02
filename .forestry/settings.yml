@@ -1,33 +1,33 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 sections:
-  - type: directory
-    path: content/post
-    label: Blog Posts
-    create: all
-    match: "**/*"
-    templates:
-      - post
-  - type: document
-    path: content/about.md
-    label: About
-  - type: document
-    path: content/code.md
-    label: Code of Conduct
-  - type: document
-    path: content/bookclub.md
-    label: Bookclub
-  - type: document
-    path: content/sponsors.md
-    label: Sponsors
-  - type: directory
-    path: data
-    label: Data
-    create: none
-    match: "**/*.{json,yaml,yml,toml}"
+- type: directory
+  path: content/post
+  label: Blog Posts
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: document
+  path: content/about.md
+  label: About
+- type: document
+  path: content/code.md
+  label: Code of Conduct
+- type: document
+  path: content/bookclub.md
+  label: Bookclub
+- type: document
+  path: content/sponsors.md
+  label: Sponsors
+- type: directory
+  path: data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml,toml}"
 upload_dir: static/uploads
 public_path: "{{ site.baseurl }}/uploads"
 front_matter_path: "/uploads"
@@ -36,18 +36,17 @@ file_template: ":year:/:month:/:day:/:filename:"
 instant_preview: false
 build:
   preview_env:
-    - HUGO_ENV=staging
-    - HUGO_VERSION=v0.55.6
+  - HUGO_ENV=staging
+  - HUGO_VERSION=v0.55.6
   preview_output_directory: public
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
-  instant_preview_command:
-    hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
   publish_command: hugo -d public
   publish_env:
-    - HUGO_ENV=production
-    - HUGO_VERSION=v0.55.6
+  - HUGO_ENV=production
+  - HUGO_VERSION=v0.55.6
   output_directory: public
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
-version: "0.28"
+version: '0.28'

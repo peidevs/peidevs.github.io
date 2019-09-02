@@ -10,10 +10,10 @@ elders:
 - name: Evan Porter
   img: https://secure.meetupstatic.com/photos/member/d/8/6/0/member_163435392.jpeg
   desc: Evan Porter has been working in the IT field for over a decade. He has extensive
-    experience using Java and JavaScript professionally and likes Python and Clojure
-    for fun. Attending PEI Devs since December 2012, he became an Elder in March 2016.
-    Evan feels old and hates writing in third person. Only Bob Dole should refer to
-    himself in the third person.
+    experience using Java / Groovy and JavaScript professionally and likes Python
+    and Clojure for fun. Attending PEI Devs since December 2012, he became an Elder
+    in March 2016. Evan feels old and hates writing in third person. Only Bob Dole
+    should refer to himself in the third person.
 - name: Matt Duffy
   img: https://secure.meetupstatic.com/photos/member/2/5/8/2/member_162429602.jpeg
   desc: An avid sports fan, Matt spends most of his free time running in marathons
