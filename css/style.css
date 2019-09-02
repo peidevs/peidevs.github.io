@@ -726,17 +726,27 @@ select {
 	padding: 10px 25px;
 	border-top: 3px solid #999;
 	background: #2a2a2a;
+	min-height: 1.5em;
 }
 
-.footer__copyright {
+.footer p {
 	font-size: 12px;
 	font-size: 0.75rem;
 	color: #999;
 }
 
-.footer__copyright a {
+.footer p a {
 	color: #ffffff;
 }
+
+
+.footer__copyright {
+	float: left;
+}
+
+.footer__rssfeed {
+	float: right;
+} 
 
 /*** Images / Video ***/
 img {
@@ -990,6 +1000,12 @@ textarea {
 
 	.footer__copyright {
 		text-align: center;
+		float: unset;
+	}
+
+	.footer__rssfeed {
+		text-align: center;
+		float: unset;
 	}
 
 	.widget {
